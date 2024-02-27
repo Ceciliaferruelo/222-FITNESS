@@ -1,0 +1,504 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+
+
+body{
+      
+         background-color: #262727;
+
+}
+
+
+.logo{
+    margin-top: 8px;
+    margin-left: 10px;
+}
+  
+
+.menupng{
+
+        margin-top: 20px;
+        justify-content: end;
+        margin-left: 35vw;
+        width: 3em;
+}
+
+
+.ulmenu{
+    
+        width: 100%;
+        background-color: black;
+        text-decoration: none;
+        list-style: none;
+        margin-top: 40px;
+        
+        
+       
+
+}
+.menu{
+        display: none;
+        text-decoration: none;
+        margin-top: 30px;
+        justify-content: center;
+      
+        
+        
+}
+.colorwhite{
+       
+    color: white !important;
+ }
+ .bgcolor{
+    background-color: #47454d;
+ }
+ .pinkbgcolor{
+    background-color: #fca2d2; 
+    
+ }
+
+/* PAGE INICIO */
+
+
+
+
+
+h1{
+        
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: deeppink;
+    margin: 15px
+    
+
+ }
+
+ h1:hover{
+    color: #fca2d2; 
+ }
+ .titulo{
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    margin: 30px;
+ }
+ .mundofitness{
+    color: hotpink; 
+}
+
+
+
+.APRENDE
+
+{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+     text-align: center;
+    }
+    
+    .tituloaprende{
+        font-size: 7vmin;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: px;
+        margin-bottom: 20px;
+        font-weight: 700;
+        color: rgb(223, 135, 184);
+        justify-content: center;
+        
+    }
+
+    .listasdeaprende{
+       display: inline-block;
+       justify-content: center;
+       padding: 10px;
+       margin-bottom: 30px;
+       margin-left: 15px;
+       margin-right: 15px;
+       width: 200px ; 
+       text-align: center; 
+       font-family: Arial, Helvetica, sans-serif; 
+       justify-content: center;
+       
+     }
+
+     .subtituloaprende{
+        font-size: 25px;
+        
+     }
+
+     .textoaprende{
+        margin: 7px;
+     }
+
+
+/* FIN DE SECCION ALIMENTACION */
+    
+.espacioentresegmentos{
+    color: #262727;
+    padding: 90px;
+}
+
+.espacioentresegmentospequeño{
+    color: #262727;
+    padding: 50px;
+}
+
+
+#cardsdiv{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   margin-left: 20px;
+   margin: 1px;
+    
+}
+
+.margincards{
+    margin: 6px;
+}
+
+
+.titulorutinas{
+    color: #fca2d2;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 25px;
+}
+.btncolor{
+    background-color: #f7bbce !important;
+    border: solid 1px #C6C6C6;
+    color: rgb(149, 149, 149);
+    font-weight: 500;
+    
+}
+.supercarddivcontainer{
+    background-color: #E7E7E7;
+    padding: 10px;
+}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width:2701px) {
+    body{
+        background-color: #262727;
+    }
+
+
+
+    header{
+      
+        position: sticky; 
+     }
+    
+    .positionsticky{
+        position: sticky;
+    }
+    .menu{
+    
+        font-size: 1.6vh;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: black;
+        text-decoration: none;
+        display: flex;
+        
+     
+        justify-content: center;
+        margin: 12px;
+        padding: 10px;
+        text-align: center;
+        margin-top: 32px;
+        font-weight: 500;
+        
+        
+ }
+    .ulmenu{
+    
+        padding-top: 0.2rem;
+        padding-left: 0px;
+        padding-right: 0px;
+        display: flex ;
+        justify-content: space-around;
+        list-style: none;
+        margin-left: 15px;
+        
+    
+    }
+    
+     .logo{
+        width: 12vh;
+        margin-left: 0px;
+     }
+    
+     .menupng{
+        margin-top: 27px;
+        justify-content: end;
+       
+     }
+
+     .colorwhite{
+       
+        color: white !important;
+        font-size: 20px;
+        
+     }
+
+     .colorwhite:hover {
+        color: #fca2d2 !important;
+     }
+  
+     .bgcolor{
+        background-color: #47454d;
+     }
+
+     .pinkbgcolor{
+        background-color: #fca2d2; 
+        
+     }
+     
+  
+     
+
+     
+
+
+
+     /* PAGE INICIO */
+     h1{
+        
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3rem;
+        text-align: center;
+        color: deeppink;
+        margin: 15px
+        
+     }
+     h1:hover{
+        color: #fca2d2; 
+     }
+     .titulo{
+    
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: white;
+        margin: 30px;
+     }
+     .mundofitness{
+        color: hotpink; 
+    }
+    
+    
+    /* SECCION INICIO APRENDE */
+    .APRENDE{
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        }
+        
+        .tituloaprende{
+            font-size: 37px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 65px;
+            margin-bottom: 20px;
+            font-weight: 700;
+            color: rgb(223, 135, 184);
+        }
+    
+        .listasdeaprende{
+           display: inline-block;
+           justify-content: center;
+           padding: 10px;
+           margin-bottom: 30px;
+           margin-left: 15px;
+           margin-right: 15px;
+           width: 200px ; 
+           text-align: center; 
+           font-family: Arial, Helvetica, sans-serif; 
+           
+         }
+    
+         .subtituloaprende{
+            font-size: 25px;
+            
+         }
+    
+         .textoaprende{
+            margin: 7px;
+         }
+    
+    /* FIN  DE SECCION INICI0 APRENDE */   
+    
+    
+
+    
+    
+    
+    /* SECCION INICIO ALIMENTACION */
+   /*  .section-alimentacion{
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .textosection{
+        color: rgb(0, 0, 0);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3rem;
+        width: 0.2rem;
+        font-weight: 700;
+        margin-left: 0px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        
+    
+    }
+    
+    .botonsection{
+    
+         margin-top: 4rem;
+         margin-bottom: 290px;
+         margin-left: 0px;
+         margin-right: 1rem;
+         background-color: rgb(195, 247, 114);
+         padding: 30px;
+         margin-left: 300px;
+         text-decoration: none;
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 20px;
+         border-radius: 20px;
+         color: black;
+         font-weight: 750;
+         text-align: center;
+         border: 2px outset green;
+    
+    }
+    
+    .fotosection{
+        border-radius: 40px;
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 5px; 
+    
+    } */
+    /* FIN DE SECCION ALIMENTACION */ 
+    
+    .espacioentresegmentos{
+        color: #262727;
+        padding: 300px;
+    }
+    
+    .espacioentresegmentospequeño{
+        color: #262727;
+        padding: 100px;
+    }
+    
+    
+
+
+
+
+
+
+
+    /* PAGE RUTINAS */
+
+.titulorutinas{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 20px;
+    color: hotpink;
+
+
+}
+
+/* .rutinaGF{
+   display: grid;
+   grid-template-columns: repeat(7) 1fr;
+   grid-template-rows: repeat(7) 1fr;
+   background-color:plum;
+}
+.GFtitulo{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 10px;
+    grid-column: 1/2;
+    grid-row: 7/8;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.calentamientoGF{
+    margin-top: 20px;
+    grid-column: 7/8;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 545;
+    grid-row: 2/3;
+
+
+}
+.entrenamientoGF{
+    grid-column: 9/11;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    list-style: none;
+    font-weight: 545;
+    grid-row: 2/3;
+}
+
+.subtitulocalentamiento{
+    list-style: none;
+    font-weight: bolder;
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+
+}
+.subtituloentrenamiento{
+    font-weight: bolder;
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+} */
+#cardsdiv{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   margin-left: 20px;
+   margin: 1px;
+    
+}
+
+.margincards{
+    margin: 15px;
+}
+
+
+.supercarddiv{
+    display: flex;
+    justify-content: center;
+}
+.btncolor{
+    background-color: #f7bbce !important;
+    border: solid 1px deeppink;
+    color: black;
+    font-weight: 500;
+    
+}
+}
