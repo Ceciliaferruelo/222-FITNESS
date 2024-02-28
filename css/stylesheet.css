@@ -13,43 +13,11 @@ body{
 
 }
 
-
-.logo{
-    margin-top: 8px;
-    margin-left: 10px;
-}
   
-
-.menupng{
-
-        margin-top: 20px;
-        justify-content: end;
-        margin-left: 35vw;
-        width: 3em;
+header{
+    border-bottom: 2px solid black;
 }
 
-
-.ulmenu{
-    
-        width: 100%;
-        background-color: black;
-        text-decoration: none;
-        list-style: none;
-        margin-top: 40px;
-        
-        
-       
-
-}
-.menu{
-        display: none;
-        text-decoration: none;
-        margin-top: 30px;
-        justify-content: center;
-      
-        
-        
-}
 .colorwhite{
        
     color: white !important;
@@ -108,7 +76,6 @@ h1{
     .tituloaprende{
         font-size: 7vmin;
         font-family: Arial, Helvetica, sans-serif;
-        margin-left: px;
         margin-bottom: 20px;
         font-weight: 700;
         color: rgb(223, 135, 184);
@@ -197,54 +164,14 @@ h1{
 
     header{
       
-        position: sticky; 
+        border-bottom: 3px solid black;
+
      }
     
     .positionsticky{
         position: sticky;
     }
-    .menu{
     
-        font-size: 1.6vh;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: black;
-        text-decoration: none;
-        display: flex;
-        
-     
-        justify-content: center;
-        margin: 12px;
-        padding: 10px;
-        text-align: center;
-        margin-top: 32px;
-        font-weight: 500;
-        
-        
- }
-    .ulmenu{
-    
-        padding-top: 0.2rem;
-        padding-left: 0px;
-        padding-right: 0px;
-        display: flex ;
-        justify-content: space-around;
-        list-style: none;
-        margin-left: 15px;
-        
-    
-    }
-    
-     .logo{
-        width: 12vh;
-        margin-left: 0px;
-     }
-    
-     .menupng{
-        margin-top: 27px;
-        justify-content: end;
-       
-     }
 
      .colorwhite{
        
@@ -266,13 +193,6 @@ h1{
         
      }
      
-  
-     
-
-     
-
-
-
      /* PAGE INICIO */
      h1{
         
@@ -339,61 +259,6 @@ h1{
     
     /* FIN  DE SECCION INICI0 APRENDE */   
     
-    
-
-    
-    
-    
-    /* SECCION INICIO ALIMENTACION */
-   /*  .section-alimentacion{
-        background-color: white;
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-    
-    .textosection{
-        color: rgb(0, 0, 0);
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 3rem;
-        width: 0.2rem;
-        font-weight: 700;
-        margin-left: 0px;
-        margin-top: 50px;
-        margin-bottom: 30px;
-        
-    
-    }
-    
-    .botonsection{
-    
-         margin-top: 4rem;
-         margin-bottom: 290px;
-         margin-left: 0px;
-         margin-right: 1rem;
-         background-color: rgb(195, 247, 114);
-         padding: 30px;
-         margin-left: 300px;
-         text-decoration: none;
-         font-family: Arial, Helvetica, sans-serif;
-         font-size: 20px;
-         border-radius: 20px;
-         color: black;
-         font-weight: 750;
-         text-align: center;
-         border: 2px outset green;
-    
-    }
-    
-    .fotosection{
-        border-radius: 40px;
-        margin-top: 10px;
-        margin-left: 0px;
-        margin-right: 0px;
-        margin-bottom: 5px; 
-    
-    } */
-    /* FIN DE SECCION ALIMENTACION */ 
     
     .espacioentresegmentos{
         color: #262727;
