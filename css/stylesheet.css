@@ -36,24 +36,62 @@ header{
         background-color: #fca2d2; 
     
  }
-
- .footerdiv{
-        background-color: black;
-        padding: 10px;
-        display: flex;
-        justify-content: end;
+                                                        /* FOOTER SECTION */
+.footerdiv{
         border-top: 1px solid #C6C6C6;
+   
 }
+.logosdiv{
 
+        margin-right: 15px;
+        display: flex;
+        margin-top: 10px;
+}
+.redes{
+    color: #E7E7E7;
+    font-size: 25px;
+    margin: 10px;
+
+}
 .iglogo{
-        margin-top: 7px;
+      margin-top: 5px;
+}
+.newslettercontainer{
+      margin-bottom: 40px;
 }
 
-.footerdiv img{
-        margin-left: 2px;
-        margin-right: 3px;
+.newslettercontainer p{
+        color: aliceblue;
+        font-size: 25px;
+        margin-top: 10px;
+        margin-left: 5px;
 }
-                                              /* ...........PAGE INICIO............. */
+.newslettercontainer button{
+        padding: 6px;
+        padding-left: 13px;
+        padding-right: 13px;
+        border-radius: 4px;
+        background-color: #dfef37;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        border: 1px solid #dfef37;
+}
+.newslettercontainer button:hover{
+       background-color: rgb(244, 255, 128);
+       transition: 1s;
+}
+
+
+.emailinput{
+        width: 250px;
+        padding: 7px;
+        background-color: #5e5b66;
+        border: #5e5b66;
+        border-radius: 3px;
+        margin-left: 5px;
+        
+}
+                                              /* .............PAGE INICIO............. */
 
 
 
@@ -272,22 +310,65 @@ header{
         
 }
 
-.newsletter{
-        font-size: 30px;
-        color: white;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        margin-top: 20px;
-}
-.container-footer{
-        border-top: 1px solid #C6C6C6;
-}
 .footerdiv{
- 
-        padding: 5px;
+        border-top: 1px solid #C6C6C6;
+        display: flex;
+        justify-content: space-between;
    
 }
+.logosdiv{
+
+        margin-right: 15px;
+        display: flex;
+        margin-top: 10px;
+}
+.redes{
+    color: #E7E7E7;
+    font-size: 25px;
+    margin: 10px;
+
+}
+.iglogo{
+      margin-top: 5px;
+}
+.newslettercontainer{
+      margin-bottom: 40px;
+}
+
+.newslettercontainer p{
+        color: aliceblue;
+        font-size: 25px;
+        margin-top: 10px;
+        margin-left: 10px;
+}
+.newslettercontainer button{
+        padding: 7px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 4px;
+        background-color: #dfef37;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        border: 1px solid #dfef37;
+}
+.newslettercontainer button:hover{
+       background-color: rgb(244, 255, 128);
+       transition: 1s;
+}
+
+
+.emailinput{
+        width: 400px;
+        padding-right: 20px;
+        padding: 8px;
+        background-color: #5e5b66;
+        border: #5e5b66;
+        border-radius: 3px;
+        margin-left: 10px;
+        
+}
      
-                                     /* .................PAGE INICIO................. */
+                                      /* .................PAGE INICIO................. */
 h1{
         
         font-family: Arial, Helvetica, sans-serif;
