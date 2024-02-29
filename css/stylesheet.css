@@ -276,12 +276,12 @@ header{
 h1{
         
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 70px;
+        font-size: 75px;
         text-align: center;
         color:  #dfef37;
         font-weight: 700;
         margin: 15px;
-        text-shadow: 3px 3px 3px gray;
+        text-shadow: 4px 4px 4px gray;
         margin-top: 40px;
 
 }
@@ -295,16 +295,16 @@ h1{
 
 .buttonconocenos button{
         background-color: black;
-        border-radius: 2px;
+        border-radius: 6px;
         border: 1px solid black;
-        box-shadow: 0 0 15px 0 white;
+        box-shadow: 0 0 17px 0 white;
         padding: 10px;
         padding-left: 50px;
         padding-right: 50px;
 }
 
 .buttonconocenos:hover button{
-        box-shadow: 0 0 30px 0 white;
+        box-shadow: 0 0 90px 0 white;
         transition: 1s;
 }
 
@@ -321,9 +321,9 @@ h1{
         text-align: center;
         color: white;
         margin: auto;
-        font-size: 25px;
+        font-size: 30px;
         width: 750px;
-        margin-top: 30px;
+        margin-top: 50px;
 }
 
 .mundofitness{
@@ -440,7 +440,7 @@ h1{
 
 
 
-                                                /* PAGE RUTINAS */
+                                                         /* PAGE RUTINAS */
 
 .titulorutinas{
     font-size: 40px;
@@ -456,6 +456,28 @@ h1{
     color: #E7E7E7;
     font-size: 20px;
     box-shadow: 0 0 50px 0 pink;
+}
+
+.container-registrarse{
+        margin-top: 90px;
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+
+}
+
+.container-registrarse button{
+     border-radius: 7px;
+     margin-left: 20px;
+}
+.container-registrarse a{
+        
+       text-decoration: none;
+       font-family: Arial, Helvetica, sans-serif;
+       color: #262727;
+       font-size: 15px;
+
 }
 
 
