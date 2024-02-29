@@ -278,14 +278,14 @@ h1{
 {
     
 body{
-        background-color: black;
+        background-color: #262727;
 }
 
 
 
 header{
       
-        border-bottom: 3px solid black;
+        border-bottom: 2px solid #5e5b66;
 
 }
     
@@ -302,14 +302,14 @@ header{
 }
   
 .bgcolor{
-        background-color: #262727;
+        background-color: rgb(26, 26, 26);
 }
 
 .pinkbgcolor{
         background-color: #C6C6C6; 
         
 }
-
+                                                       /* FOOTER SECTION */
 .footerdiv{
         border-top: 1px solid #C6C6C6;
         display: flex;
@@ -354,6 +354,7 @@ header{
 .newslettercontainer button:hover{
        background-color: rgb(244, 255, 128);
        transition: 1s;
+       font-size: 18px;
 }
 
 
@@ -405,7 +406,7 @@ h1{
 }
 
 .buttonconocenos{
-        background-color: black;
+       
         display: flex;
         justify-content: center;
         margin-top: 80px;
@@ -580,6 +581,7 @@ h1{
 }
 .container-registrarse a:hover{
         font-size: 24px;
+        transition: 1s;
 
 
 }
