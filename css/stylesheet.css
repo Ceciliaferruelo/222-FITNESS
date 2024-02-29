@@ -200,8 +200,8 @@ h1{
      }
 
      .colorwhite:hover {
-        color: #fca2d2 !important;
-        border-bottom: 1px solid #fca2d2 !important;
+        color: #dfef37 !important;
+        border-bottom: 1px solid #dfef37 !important;
      }
   
      .bgcolor{
@@ -209,7 +209,7 @@ h1{
      }
 
      .pinkbgcolor{
-        background-color: #fca2d2; 
+        background-color: #C6C6C6; 
         
      }
      
@@ -219,46 +219,78 @@ h1{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 70px;
         text-align: center;
-        color: deeppink;
+        color:  #dfef37;
         font-weight: 700;
         margin: 15px;
-        text-shadow: 3px 3px 3px #47454d;
+        text-shadow: 3px 3px 3px gray;
+        margin-top: 40px;
 
      }
-     h1:hover{
-        color: #fca2d2; 
+     .buttonconocenos a{
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        background-color: black;
+
+     }
+     .buttonconocenos button{
+        background-color: black;
+        border-radius: 2px;
+        border: 1px solid black;
+        box-shadow: 0 0 15px 0 white;
+        padding: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+     }
+     .buttonconocenos:hover button{
+        box-shadow: 0 0 30px 0 white;
         transition: 1s;
      }
-     .titulo{
+     .buttonconocenos{
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+     }
     
+     .titulo{
+        margin: auto;
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
         color: white;
-        margin: 30px;
+        margin: auto;
+        font-size: 25px;
+        width: 900px;
+        margin-top: 30px;
      }
      .mundofitness{
-        color: hotpink; 
+        color: red; 
+    }
+    .online{
+        color: red;
+       
+        font-size: 29px;
     }
     
     
     /* SECCION INICIO APRENDE */
     .APRENDE{
-        background-color: #dfef37;
+        background-color: #5e5b66;
         display: flex;
         justify-content: center;
         width: 70%;
         border-radius: 5px;
         margin: auto;
-        box-shadow: 0 0 15px 0 whitesmoke;
+        box-shadow: 0 0 30px 0 whitesmoke;
         }
 
     .APRENDE:hover {
-        background-color: #ebf94f;
-        transition: 2s;
+        background-color: rgb(205, 203, 204);
+        transition: 1.5s;
     }
         
         .tituloaprende{
-            font-size: 55px;
+            font-size: 45px;
             font-family: Arial, Helvetica, sans-serif;
             display:flex ;
             justify-content: center;
@@ -299,7 +331,7 @@ h1{
             border: 2px solid black;
             padding: 5px;
             font-size: 20px;
-            background-color: #dfef37;
+            background-color:#dfef37;
             padding-left: 40px;
             padding-right: 40px;
             margin-top: 20px;
@@ -326,12 +358,12 @@ h1{
     
     
     .espacioentresegmentos{
-        color: #262727;
+        color: black;
         padding: 300px;
     }
     
     .espacioentresegmentospequeño{
-        color: #262727;
+        color: black;
         padding: 100px;
     }
     
