@@ -5,7 +5,7 @@
 }
 
 
-                              @media only screen and (min-width: 320px) and (max-width: 767px){
+                              @media only screen and (min-width: 318px) and (max-width: 767px){
 
 
 body{
@@ -99,7 +99,7 @@ header{
 
 h1{
         
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: initial;
         font-size: 3rem;
         text-align: center;
         color: #dfef37;
@@ -157,13 +157,14 @@ h1{
         background-color: white;
         display: flex;
         justify-content: center;
-        width: 100%;
+        width: 80%;
         text-align: center;
         border: 2px solid #f7bbce;
         box-shadow: 0 0 30px 0 whitesmoke;
+        margin: auto;
 }
 .tituloaprende{
-        font-size: 37px;
+        font-size: 35px;
         font-family: Arial, Helvetica, sans-serif;
         display: flex;
         margin: auto;
@@ -220,12 +221,159 @@ h1{
         transition: 0.7s;
 
 }
+                                     /*............... SECTION GRID............... */
+.grid-container{
+
+        margin: 10px;
+    
+        /* border: 1px solid black; */
+    
+        /* display: grid; */
+        display: grid;
+    
+        /* grid-template-columns: 150px 150px 60px 250px 150px; */
+    
+        grid-template-columns: repeat(4, 1fr);
+    
+        /* crear filas (ROW) */
+        grid-template-rows: repeat(4, 420px);
+    
+        /* row-gap 
+            column-gap
+            gap
+        */
+        /* row-gap: 10px;
+        column-gap: 25px; */
+    
+        gap: 15px;
+    }
+                                      /* ITEM 01 */
+    .grid-item-01{
+        background-color:white;
+        grid-column: 1/5;
+        grid-row: 1/2;
+        border-radius: 2px;
+        
+
+    }
+    .grid-item-01 h2{
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 1.7rem;
+        width: 100%;
+        font-weight: 600;
+        padding: 20px;
+        text-shadow: 2px 1px 1px #dfef37;
+        
+        
+        
+    }
+    
+    .grid-item-01 p{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #1A1A1A;
+        font-size: 25px;
+        width: 95%;
+        margin-left: 10px;
+    }
+    
+                                         /*ITEM 02 */
+    .grid-item-02{
+        background-color: #dfef37;
+        grid-column: 1/5;
+        grid-row: 2/3;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: inset 0 0 40px 0 whitesmoke;
+       text-align: left;
+        
+    }
+    
+    .grid-item-02 h3{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #1A1A1A;
+        font-weight: bold;
+        font-size: 2rem;
+        width: 100%;
+        text-align: left;
+      
+        margin: auto;
+    }
+    
+    .grid-item-02 p{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #1A1A1A;
+        font-size: 27px;
+        width: 75%;
+        margin-top: 15px;
+       
+        
+       
+    }
+                                          /* ITEM 03 */
+    .grid-item-03{
+        background-color:#99999e;
+        grid-column: 1/5;
+        grid-row: 3/4;
+        border-radius: 5px;
+        
+        
+       
+    }
+    
+    .grid-item-03 p{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #1A1A1A;
+        font-size: 1.5rem;
+        width: 95%;
+        margin-top: 18px;
+        margin-left: 10px;
+       
+    }
 
     
 
+    .div-interno-03 span{
+        font-size: 22px;
+        color: #dfef37;
+    }
+
+    .botonVR{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .botonVR a{
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color:black;
+        font-size: 19px;
+        
+    }
+
+    .botonVR button{
+        background-color: #99999e;
+        border-radius: 6px;
+        border: 1px solid #dfef37;
+        box-shadow: 0 0 17px 0 white;
+        padding: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .botonVR button:hover a{
+        font-size: 21px;
+        transition: 1s;
+    }
+    .botonVR button:hover {
+        box-shadow: 0 0 25px 0 white;
+    }   
 
 
-                                                 /* FIN DE SECCION ALIMENTACION */
+                                             /*....FIN DEL SECTION GRID.... */
+
+
+                                                 
     
 .espacioentresegmentos{
     color: black;
@@ -237,7 +385,7 @@ h1{
     padding: 50px;
 }
 
-
+                                                 /*.....PAGE RUTINAS..... */
 #cardsdiv{
     display: flex;
     text-align: center;
@@ -458,6 +606,7 @@ h1{
         font-weight: 700;
         color: black;
         margin-top: 20px;
+        text-align: center;
 }
     
 .listasdeaprende{
