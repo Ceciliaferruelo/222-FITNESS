@@ -1,1 +1,3 @@
-this is an example made for coderhouse students
+Welcome to 222 FITNESS, your ultimate destination for achieving your health and wellness goals! We're thrilled to extend a warm welcome to you as you embark on this empowering journey towards a stronger, fitter, and healthier version of yourself.
+
+Our website is more than just a platform for workouts and nutrition tips; it's a community of like-minded individuals committed to living their best lives. From personalized workout plans to expert advice on nutrition and mindfulness, we offer comprehensive resources to help you reach your full potential.
