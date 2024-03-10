@@ -1,68 +1,188 @@
-@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
 }
 
-@media only screen and (min-width: 318px) and (max-width: 767px) {
-  body {
-    background-color: black;
-  }
-  header {
-    border-bottom: 2px solid black;
-  }
-  .colorwhite {
-    color: white !important;
-  }
-  .colorwhite:hover {
-    color: #dfef37 !important;
-    border-bottom: 1px solid #dfef37 !important;
-  }
-  .bgcolor {
-    background-color: #47454d;
-  }
-  .pinkbgcolor {
-    background-color: #fca2d2;
-  }
+body {
+  background-color: black;
+}
+
+header {
+  border-bottom: 2px solid black;
+}
+
+.colorwhite {
+  color: white !important;
+}
+
+.colorwhite:hover {
+  color: #dfef37 !important;
+  border-bottom: 1px solid #dfef37 !important;
+}
+
+.bgcolor {
+  background-color: #47454d;
+}
+
+.pinkbgcolor {
+  background-color: #fca2d2;
+}
+
+.footerdiv {
+  border-top: 1px solid #C6C6C6;
+}
+
+.logosdiv {
+  margin-right: 15px;
+  display: flex;
+  margin-top: 10px;
+}
+
+.newslettercontainer {
+  margin-bottom: 40px;
+}
+
+.newslettercontainer p {
+  color: aliceblue;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.newslettercontainer button:hover {
+  background-color: rgb(244, 255, 128);
+  transition: 1s;
+}
+
+.buttonconocenos a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: black;
+}
+
+.buttonconocenos button {
+  background-color: black;
+  border-radius: 2px;
+  border: 1px solid black;
+  box-shadow: 0 0 15px 0 white;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.buttonconocenos:hover button {
+  box-shadow: 0 0 30px 0 white;
+  transition: 1s;
+}
+
+.buttonconocenos {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.botonVR {
+  display: flex;
+  justify-content: center;
+}
+
+.botonVR a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 19px;
+}
+
+.botonVR button:hover a {
+  font-size: 21px;
+  transition: 1s;
+}
+
+.botonVR button:hover {
+  box-shadow: 0 0 25px 0 white;
+}
+
+.botonesaprender {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 7px 40px 7px 40px;
+  font-size: 20px;
+  background-color: #dfef37;
+  margin-top: 20px;
+}
+
+.botonesaprender a {
+  text-decoration: none;
+  color: black;
+}
+
+.botonesaprender:hover a {
+  color: black;
+  font-size: 25px;
+  transition: 0.6s;
+  text-shadow: 1px 1px 1px gainsboro;
+}
+
+.botonesaprender:hover {
+  box-shadow: 0 0 15px 0 black;
+  transition: 0.7s;
+}
+
+/* page rutinas */
+.containersubtitulorutinas {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+
+.subtitulorutinas {
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 8px;
+  color: #E7E7E7;
+  font-size: 18px;
+  box-shadow: 0 0 50px 0 pink;
+}
+
+.container-registrarse {
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.container-registrarse a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: deeppink;
+}
+
+.container-registrarse a:hover {
+  font-size: 24px;
+  transition: 1s;
+}
+
+/* queries */
+@media only screen and (min-width: 318px) and (max-width: 792px) {
   /* FOOTER SECTION */
-  .footerdiv {
-    border-top: 1px solid #C6C6C6;
-  }
-  .logosdiv {
-    margin-right: 15px;
-    display: flex;
-    margin-top: 10px;
-  }
   .redes {
     color: #E7E7E7;
     font-size: 25px;
     margin: 10px;
   }
-  .iglogo {
-    margin-top: 5px;
-  }
-  .newslettercontainer {
-    margin-bottom: 40px;
-  }
-  .newslettercontainer p {
-    color: aliceblue;
-    font-size: 25px;
-    margin-top: 10px;
-    margin-left: 5px;
-  }
   .newslettercontainer button {
-    padding: 6px;
-    padding-left: 13px;
-    padding-right: 13px;
+    padding: 6px 15px 6px 15px;
     border-radius: 4px;
     background-color: #dfef37;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     border: 1px solid #dfef37;
-  }
-  .newslettercontainer button:hover {
-    background-color: rgb(244, 255, 128);
-    transition: 1s;
   }
   .emailinput {
     width: 250px;
@@ -91,32 +211,7 @@
   .mundofitness {
     color: hotpink;
   }
-  .buttonconocenos a {
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    background-color: black;
-  }
-  .buttonconocenos button {
-    background-color: black;
-    border-radius: 2px;
-    border: 1px solid black;
-    box-shadow: 0 0 15px 0 white;
-    padding: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-  .buttonconocenos:hover button {
-    box-shadow: 0 0 30px 0 white;
-    transition: 1s;
-  }
-  .buttonconocenos {
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    margin-top: 80px;
-  }
-  .APRENDE {
+  .aprende {
     background-color: white;
     display: flex;
     justify-content: center;
@@ -153,11 +248,9 @@
     font-weight: lighter;
     border-radius: 5px;
     border: 2px solid black;
-    padding: 5px;
+    padding: 9px 25px 9px 25px;
     font-size: 17px;
     background-color: #dfef37;
-    padding-left: 40px;
-    padding-right: 40px;
     margin-top: 20px;
   }
   .botonesaprender a {
@@ -253,58 +346,31 @@
     color: #1A1A1A;
     font-size: 1.5rem;
     width: 95%;
-    margin-top: 18px;
-    margin-left: 10px;
+    margin: 18px 0px 0px 10px;
   }
   .div-interno-03 span {
     font-size: 22px;
     color: #dfef37;
-  }
-  .botonVR {
-    display: flex;
-    justify-content: center;
-  }
-  .botonVR a {
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    font-size: 19px;
   }
   .botonVR button {
     background-color: #99999e;
     border-radius: 6px;
     border: 1px solid #dfef37;
     box-shadow: 0 0 17px 0 white;
-    padding: 5px;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  .botonVR button:hover a {
-    font-size: 21px;
-    transition: 1s;
-  }
-  .botonVR button:hover {
-    box-shadow: 0 0 25px 0 white;
+    padding: 5px 30px 5px 30px;
   }
   /*....FIN DEL SECTION GRID.... */
-  .espacioentresegmentos {
-    color: black;
-    padding: 90px;
-  }
-  .espacioentresegmentospequeño {
-    color: black;
-    padding: 50px;
-  }
   /*.....PAGE RUTINAS..... */
   #cardsdiv {
-    display: flex;
     text-align: center;
     justify-content: center;
-    margin-left: 20px;
-    margin: 1px;
   }
   .margincards {
-    margin: 6px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .margincards img {
+    object-fit: cover;
   }
   .titulorutinas {
     color: #fca2d2;
@@ -314,47 +380,24 @@
     padding: 25px;
   }
   .btncolor {
-    background-color: #f7bbce !important;
-    border: solid 1px #C6C6C6;
-    color: rgb(149, 149, 149);
+    background-color: #dfef37 !important;
+    border: solid 1px black;
+    color: black;
     font-weight: 500;
+    padding: 8px 30px 8px 30px;
   }
-  .supercarddivcontainer {
-    background-color: #E7E7E7;
-    padding: 10px;
+  .btncolor:hover {
+    font-size: 20px;
+    box-shadow: 0 0 15px 0 black;
+    transition: 0.5s;
+    color: #262727;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 2701px) {
-  body {
-    background-color: #262727;
-  }
-  header {
-    border-bottom: 2px solid #5e5b66;
-  }
-  .colorwhite {
-    color: white !important;
-    font-size: 20px;
-  }
-  .colorwhite:hover {
-    color: #dfef37 !important;
-    border-bottom: 1px solid #dfef37 !important;
-  }
-  .bgcolor {
-    background-color: rgb(26, 26, 26);
-  }
-  .pinkbgcolor {
-    background-color: #C6C6C6;
-  }
+@media only screen and (min-width: 793px) and (max-width: 2701px) {
   /* FOOTER SECTION */
   .footerdiv {
-    border-top: 1px solid #C6C6C6;
     display: flex;
     justify-content: space-between;
-  }
-  .logosdiv {
-    margin-right: 15px;
-    display: flex;
-    margin-top: 10px;
   }
   .redes {
     color: #E7E7E7;
@@ -364,29 +407,13 @@
   .iglogo {
     margin-top: 5px;
   }
-  .newslettercontainer {
-    margin-bottom: 40px;
-  }
-  .newslettercontainer p {
-    color: aliceblue;
-    font-size: 25px;
-    margin-top: 10px;
-    margin-left: 10px;
-  }
   .newslettercontainer button {
-    padding: 7px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 7px 20px 7px 20px;
     border-radius: 4px;
     background-color: #dfef37;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     border: 1px solid #dfef37;
-  }
-  .newslettercontainer button:hover {
-    background-color: rgb(244, 255, 128);
-    transition: 1s;
-    font-size: 18px;
   }
   .emailinput {
     width: 400px;
@@ -408,30 +435,6 @@
     text-shadow: 4px 4px 4px gray;
     margin-top: 40px;
   }
-  .buttonconocenos a {
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    background-color: black;
-  }
-  .buttonconocenos button {
-    background-color: black;
-    border-radius: 6px;
-    border: 1px solid black;
-    box-shadow: 0 0 17px 0 white;
-    padding: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-  .buttonconocenos:hover button {
-    box-shadow: 0 0 90px 0 white;
-    transition: 1s;
-  }
-  .buttonconocenos {
-    display: flex;
-    justify-content: center;
-    margin-top: 80px;
-  }
   .titulo {
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
@@ -450,16 +453,17 @@
     font-size: 29px;
   }
   /* SECCION INICIO APRENDE */
-  .APRENDE {
+  .aprende {
     background-color: #5e5b66;
     display: flex;
     justify-content: center;
     width: 80%;
     border-radius: 4px;
     margin: auto;
+    margin-top: 150px;
     box-shadow: 0 0 30px 0 white;
   }
-  .APRENDE:hover {
+  .aprende:hover {
     background-color: rgb(205, 203, 204);
     transition: 1.5s;
   }
@@ -476,9 +480,7 @@
   .listasdeaprende {
     display: inline-block;
     padding: 0px;
-    margin-bottom: 30px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin: 1px 15px 8px 15px;
     width: 300px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -495,11 +497,9 @@
     font-weight: lighter;
     border-radius: 5px;
     border: 1px solid black;
-    padding: 5px;
+    padding: 7px 40px 7px 40px;
     font-size: 20px;
     background-color: #dfef37;
-    padding-left: 40px;
-    padding-right: 40px;
     margin-top: 20px;
   }
   .botonesaprender a {
@@ -517,82 +517,7 @@
     transition: 0.7s;
   }
   /* FIN  DE SECCION INICI0 APRENDE */
-  .espacioentresegmentos {
-    color: black;
-    padding: 300px;
-  }
-  .espacioentresegmentospequeño {
-    color: black;
-    padding: 100px;
-  }
-  /* PAGE RUTINAS */
-  .titulorutinas {
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-weight: 700;
-    margin-top: 20px;
-    color: hotpink;
-  }
-  .containersubtitulorutinas {
-    display: flex;
-    justify-content: center;
-  }
-  .subtitulorutinas {
-    margin-top: 30px;
-    border-radius: 10px;
-    padding: 8px;
-    color: #E7E7E7;
-    font-size: 20px;
-    box-shadow: 0 0 50px 0 pink;
-  }
-  .container-registrarse {
-    margin-top: 90px;
-    display: flex;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: aliceblue;
-  }
-  .container-registrarse a {
-    font-family: Arial, Helvetica, sans-serif;
-    color: deeppink;
-  }
-  .container-registrarse a:hover {
-    font-size: 24px;
-    transition: 1s;
-  }
-  #cardsdiv {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    margin-left: 20px;
-    margin: 1px;
-  }
-  .margincards {
-    margin: 15px;
-  }
-  .margincards:hover {
-    box-shadow: 0 0 30px 0 pink;
-  }
-  .supercarddiv {
-    display: flex;
-    justify-content: center;
-  }
-  .btncolor {
-    background-color: #dfef37 !important;
-    border: solid 1px black;
-    color: black;
-    font-weight: 500;
-    padding-left: 25px;
-    padding-right: 25px;
-  }
-  .btncolor:hover {
-    font-size: 20px;
-    box-shadow: 0 0 15px 0 black;
-    transition: 0.5s;
-    color: #262727;
-  }
+  /* INICIO DE EL GRID */
   .grid-container {
     margin: 60px;
     /* border: 3px solid black; */
@@ -610,7 +535,7 @@
     gap: 25px;
   }
   .grid-container {
-    margin: 40px;
+    margin: 170px 40px 100px 40px;
     /* border: 1px solid black; */
     /* display: grid; */
     display: grid;
@@ -670,8 +595,7 @@
     color: #1A1A1A;
     font-size: 27px;
     width: 75%;
-    margin-top: 25px;
-    margin-left: 10px;
+    margin: 25px 0px 0px 10px;
   }
   .grid-item-03 {
     background-color: #99999e;
@@ -698,31 +622,50 @@
     font-size: 22px;
     color: #dfef37;
   }
-  .botonVR {
-    display: flex;
-    justify-content: center;
-  }
-  .botonVR a {
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    font-size: 18px;
-  }
   .botonVR button {
     background-color: #99999e;
     border-radius: 6px;
     border: 1px solid #dfef37;
     box-shadow: 0 0 17px 0 white;
-    padding: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 10px 40px 10px 40px;
   }
-  .botonVR button:hover a {
-    font-size: 21px;
-    transition: 1s;
+  /* FIN DEL GRID */
+  /* PAGE RUTINAS */
+  .titulorutinas {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 20px;
+    color: hotpink;
   }
-  .botonVR button:hover {
-    box-shadow: 0 0 25px 0 white;
+  #cardsdiv {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .margincards {
+    margin: 15px;
+  }
+  .margincards:hover {
+    box-shadow: 0 0 30px 0 pink;
+  }
+  .supercarddiv {
+    display: flex;
+    justify-content: center;
+  }
+  .btncolor {
+    background-color: #dfef37 !important;
+    border: solid 1px black;
+    color: black;
+    font-weight: 500;
+    padding: 8px 30px 8px 30px;
+  }
+  .btncolor:hover {
+    font-size: 20px;
+    box-shadow: 0 0 15px 0 black;
+    transition: 0.5s;
+    color: #262727;
   }
 }
 

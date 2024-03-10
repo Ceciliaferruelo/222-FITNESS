@@ -1,78 +1,24 @@
-@media only screen and (min-width: 318px) and (max-width: 767px){
-
-
-    body{
-          
-             background-color: black;
-    
-    }
-    
-      
-    header{
-           border-bottom: 2px solid black;
-    }
-    
-    .colorwhite{
-           
-            color: white !important;
-     }
-     .colorwhite:hover {
-            color: #dfef37 !important;
-            border-bottom: 1px solid #dfef37 !important;
-     }
-    
-     .bgcolor{
-            background-color: #47454d;
-     }
-    
-     .pinkbgcolor{
-            background-color: #fca2d2; 
-        
-     }
+@media only screen and (min-width: 318px) and (max-width: 792px){
+ 
+     
                                                             /* FOOTER SECTION */
-    .footerdiv{
-            border-top: 1px solid #C6C6C6;
-       
-    }
-    .logosdiv{
+                                                      
+.redes{
+  color: #E7E7E7;
+  font-size: 25px;
+  margin: 10px;
+                                                        
+ }
     
-            margin-right: 15px;
-            display: flex;
-            margin-top: 10px;
-    }
-    .redes{
-        color: #E7E7E7;
-        font-size: 25px;
-        margin: 10px;
-    
-    }
-    .iglogo{
-          margin-top: 5px;
-    }
-    .newslettercontainer{
-          margin-bottom: 40px;
-    }
-    
-    .newslettercontainer p{
-            color: aliceblue;
-            font-size: 25px;
-            margin-top: 10px;
-            margin-left: 5px;
-    }
     .newslettercontainer button{
-            padding: 6px;
-            padding-left: 13px;
-            padding-right: 13px;
+            padding: 6px 15px 6px 15px;
             border-radius: 4px;
             background-color: #dfef37;
             font-family: Arial, Helvetica, sans-serif;
             font-weight: 500;
             border: 1px solid #dfef37;
     }
-    .newslettercontainer button:hover{
-           background-color: rgb(244, 255, 128);
-           transition: 1s;
-    }
+   
     
     
     .emailinput{
@@ -114,39 +60,12 @@
             color: hotpink; 
     }
     
-    .buttonconocenos a{
-            text-decoration: none;
-            font-family: Arial, Helvetica, sans-serif;
-            color: white;
-            background-color: black;
-    }
-    
-     .buttonconocenos button{
-            background-color: black;
-            border-radius: 2px;
-            border: 1px solid black;
-            box-shadow: 0 0 15px 0 white;
-            padding: 10px;
-            padding-left: 50px;
-            padding-right: 50px;
-     }
-    
-     .buttonconocenos:hover button{
-            box-shadow: 0 0 30px 0 white;
-            transition: 1s;
-     }
-    
-     .buttonconocenos{
-            background-color: black;
-            display: flex;
-            justify-content: center;
-            margin-top: 80px;
-     }
     
     
     
     
-    .APRENDE{
+    
+    .aprende{
             background-color: white;
             display: flex;
             justify-content: center;
@@ -189,11 +108,10 @@
             font-weight: lighter;
             border-radius: 5px;
             border: 2px solid black;
-            padding: 5px;
+            padding: 9px 25px 9px 25px;
             font-size: 17px;
             background-color:#dfef37;
-            padding-left: 40px;
-            padding-right: 40px;
+           
             margin-top: 20px;
     }
     
@@ -319,8 +237,8 @@
             color: #1A1A1A;
             font-size: 1.5rem;
             width: 95%;
-            margin-top: 18px;
-            margin-left: 10px;
+            margin: 18px 0px 0px 10px;
+
            
         }
     
@@ -331,65 +249,45 @@
             color: #dfef37;
         }
     
-        .botonVR{
-            display: flex;
-            justify-content: center;
-            
-        }
-        .botonVR a{
-            text-decoration: none;
-            font-family: Arial, Helvetica, sans-serif;
-            color:black;
-            font-size: 19px;
-            
-        }
-    
+        
         .botonVR button{
             background-color: #99999e;
             border-radius: 6px;
             border: 1px solid #dfef37;
             box-shadow: 0 0 17px 0 white;
-            padding: 5px;
-            padding-left: 30px;
-            padding-right: 30px;
+            padding: 5px 30px 5px 30px;
         }
     
-        .botonVR button:hover a{
-            font-size: 21px;
-            transition: 1s;
-        }
-        .botonVR button:hover {
-            box-shadow: 0 0 25px 0 white;
-        }   
+       
+        
     
     
                                                  /*....FIN DEL SECTION GRID.... */
     
     
                                                      
-        
-    .espacioentresegmentos{
-        color: black;
-        padding: 90px;
-    }
-    
-    .espacioentresegmentospequeño{
-        color: black;
-        padding: 50px;
-    }
     
                                                      /*.....PAGE RUTINAS..... */
+
+                                                    
+                                                
+                                             
+                                                
     #cardsdiv{
-        display: flex;
-        text-align: center;
-        justify-content: center;
-       margin-left: 20px;
-       margin: 1px;
-        
-    }
+    text-align: center;
+    justify-content: center;
+    }                                       
     
     .margincards{
-        margin: 6px;
+        
+        margin: auto;
+        margin-bottom: 20px;
+
+    }
+
+    .margincards img {
+        object-fit: cover;
+       
     }
     
     
@@ -401,15 +299,20 @@
         padding: 25px;
     }
     .btncolor{
-        background-color: #f7bbce !important;
-        border: solid 1px #C6C6C6;
-        color: rgb(149, 149, 149);
+        background-color: #dfef37 !important;
+        border: solid 1px black;
+        color: black;
         font-weight: 500;
+        padding: 8px 30px 8px 30px;
         
     }
-    .supercarddivcontainer{
-        background-color: #E7E7E7;
-        padding: 10px;
+    
+    
+    .btncolor:hover{
+        font-size: 20px;
+        box-shadow: 0 0 15px 0 black;
+        transition: 0.5s;
+        color: #262727;
     }
     
     }

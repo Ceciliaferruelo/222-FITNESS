@@ -7,11 +7,194 @@
     margin: 0;
 }
 
+body{
+          
+    background-color: black;
+
+}
+    
+header{
+    border-bottom: 2px solid black;
+}
+
+
+.colorwhite{
+           
+    color: white !important;
+}
+
+.colorwhite:hover {
+    color: #dfef37 !important;
+    border-bottom: 1px solid #dfef37 !important;
+}
+
+.bgcolor{
+    background-color: #47454d;
+}
+
+.pinkbgcolor{
+    background-color: #fca2d2; 
+
+}
+
+.footerdiv{
+    border-top: 1px solid #C6C6C6;
+}
+.logosdiv{
+                                                        
+    margin-right: 15px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.newslettercontainer{
+  margin-bottom: 40px;
+}
+
+.newslettercontainer p{
+    color: aliceblue;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.newslettercontainer button:hover{
+    background-color: rgb(244, 255, 128);
+    transition: 1s;
+}
+.buttonconocenos a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.buttonconocenos button{
+    background-color: black;
+    border-radius: 2px;
+    border: 1px solid black;
+    box-shadow: 0 0 15px 0 white;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.buttonconocenos:hover button{
+    box-shadow: 0 0 30px 0 white;
+    transition: 1s;
+}
+
+.buttonconocenos{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.botonVR{
+    display: flex;
+    justify-content: center;
+    
+}
+.botonVR a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    font-size: 19px;
+    
+}
+.botonVR button:hover a{
+    font-size: 21px;
+    transition: 1s;
+}
+.botonVR button:hover {
+    box-shadow: 0 0 25px 0 white;
+
+}   
+
+.botonesaprender{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 7px 40px 7px 40px;
+    font-size: 20px;
+    background-color:#dfef37;
+    
+    margin-top: 20px;
+}
+
+.botonesaprender a{
+    text-decoration: none;
+    color: black;
+}
+
+.botonesaprender:hover a{
+    color:black;
+    font-size: 25px;
+    transition: 0.6s;
+    text-shadow: 1px 1px 1px gainsboro;
+}
+
+.botonesaprender:hover{
+    box-shadow: 0 0 15px 0 black;
+    transition: 0.7s;
+
+}
+
+
+
+
+
+
+
+
+                                                          /* page rutinas */
+.containersubtitulorutinas{
+    display:flex;
+    justify-content: center;   
+    width: 80%; 
+    margin: auto;
+}
+
+.subtitulorutinas{
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 8px;
+    color: #E7E7E7;
+    font-size: 18px;
+    box-shadow: 0 0 50px 0 pink;
+}
+.container-registrarse{
+    margin-top: 90px;
+    display:flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+
+}
+
+
+.container-registrarse a{
+    
+  
+   font-family: Arial, Helvetica, sans-serif;
+   color: deeppink;
+}
+.container-registrarse a:hover{
+    font-size: 24px;
+    transition: 1s;
+
+
+}
+
+
+
+/* queries */
+
 @import "mobilescreen";
 
 
-@import "desktopscreen"
+@import "desktopscreen";
 
 
-
-                          
