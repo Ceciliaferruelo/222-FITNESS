@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: #262727;
 }
 
 header {
@@ -63,21 +63,18 @@ header {
 
 .buttonconocenos button {
   background-color: black;
-  border-radius: 2px;
+  border-radius: 6px;
   border: 1px solid black;
-  box-shadow: 0 0 15px 0 white;
-  padding: 10px;
-  padding-left: 50px;
-  padding-right: 50px;
+  box-shadow: 0 0 17px 0 white;
+  padding: 10px 50px 10px 50px;
 }
 
 .buttonconocenos:hover button {
-  box-shadow: 0 0 30px 0 white;
+  box-shadow: 0 0 90px 0 white;
   transition: 1s;
 }
 
 .buttonconocenos {
-  background-color: black;
   display: flex;
   justify-content: center;
   margin-top: 80px;
@@ -267,11 +264,11 @@ header {
     border: 2px solid #f7bbce;
     box-shadow: 0 0 30px 0 whitesmoke;
     margin: auto;
+    margin-top: 100px;
   }
   .tituloaprende {
     font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
     margin: auto;
     font-weight: 700;
     color: rgb(223, 135, 184);

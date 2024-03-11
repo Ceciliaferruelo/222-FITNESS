@@ -8,9 +8,7 @@
 }
 
 body{
-          
-    background-color: black;
-
+    background-color: #262727;
 }
     
 header{
@@ -61,6 +59,8 @@ header{
     background-color: rgb(244, 255, 128);
     transition: 1s;
 }
+
+
 .buttonconocenos a{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -70,21 +70,19 @@ header{
 
 .buttonconocenos button{
     background-color: black;
-    border-radius: 2px;
+    border-radius: 6px;
     border: 1px solid black;
-    box-shadow: 0 0 15px 0 white;
-    padding: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
+    box-shadow: 0 0 17px 0 white;
+    padding: 10px 50px 10px 50px;
 }
 
 .buttonconocenos:hover button{
-    box-shadow: 0 0 30px 0 white;
+    box-shadow: 0 0 90px 0 white;
     transition: 1s;
 }
 
 .buttonconocenos{
-    background-color: black;
+   
     display: flex;
     justify-content: center;
     margin-top: 80px;
