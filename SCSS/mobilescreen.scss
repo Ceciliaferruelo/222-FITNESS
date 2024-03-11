@@ -11,7 +11,7 @@
  }
     
     .newslettercontainer button{
-            padding: 6px 15px 6px 15px;
+            padding: 6px 7px 6px 7px;
             border-radius: 4px;
             background-color: #dfef37;
             font-family: Arial, Helvetica, sans-serif;
@@ -22,7 +22,7 @@
     
     
     .emailinput{
-            width: 250px;
+            width: 240px;
             padding: 7px;
             background-color: #5e5b66;
             border: #5e5b66;
@@ -272,47 +272,6 @@
                                                     
                                                 
                                              
-                                                
-    #cardsdiv{
-    text-align: center;
-    justify-content: center;
-    }                                       
-    
-    .margincards{
-        
-        margin: auto;
-        margin-bottom: 20px;
-
-    }
-
-    .margincards img {
-        object-fit: cover;
-       
-    }
-    
-    
-    .titulorutinas{
-        color: #fca2d2;
-        text-align: center;
-        font-size: 30px;
-        font-weight: 500;
-        padding: 25px;
-    }
-    .btncolor{
-        background-color: #dfef37 !important;
-        border: solid 1px black;
-        color: black;
-        font-weight: 500;
-        padding: 8px 30px 8px 30px;
-        
-    }
-    
-    
-    .btncolor:hover{
-        font-size: 20px;
-        box-shadow: 0 0 15px 0 black;
-        transition: 0.5s;
-        color: #262727;
-    }
+                
     
     }

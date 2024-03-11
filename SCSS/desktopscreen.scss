@@ -165,31 +165,7 @@ h1{
                                            /* INICIO DE EL GRID */
 
 
-                                           .grid-container{
-
-                                            margin: 60px;
                                         
-                                            /* border: 3px solid black; */
-                                        
-                                            /* display: grid; */
-                                            display: grid;
-                                        
-                                            
-                                        
-                                            grid-template-columns: repeat(3, 300px);
-                                        
-                                            /* crear filas (ROW) */
-                                            grid-template-rows: repeat(3, 250px);
-                                        
-                                            /* row-gap 
-                                                column-gap
-                                                gap
-                                            */
-                                            /* row-gap: 10px;
-                                            column-gap: 25px; */
-                                        
-                                            gap: 25px;
-                                        }
                                         
                                         .grid-container{
                                     
@@ -330,54 +306,6 @@ h1{
 
 
                                                          /* PAGE RUTINAS */
-
-.titulorutinas{
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-weight: 700;
-    margin-top: 20px;
-    color: hotpink;
-}
-
-#cardsdiv{
-    display: flex;
-    text-align: center;
-    justify-content: center;
- 
-}
-
-.margincards{
-    margin: 15px;
-    
-}
-
-.margincards:hover{
-    box-shadow: 0 0 30px 0 pink;
-}
-
-
-.supercarddiv{
-    display: flex;
-    justify-content: center;
-}
-.btncolor{
-    background-color: #dfef37 !important;
-    border: solid 1px black;
-    color: black;
-    font-weight: 500;
-    padding: 8px 30px 8px 30px;
-    
-}
-
-
-.btncolor:hover{
-    font-size: 20px;
-    box-shadow: 0 0 15px 0 black;
-    transition: 0.5s;
-    color: #262727;
-}
-
 
 
     

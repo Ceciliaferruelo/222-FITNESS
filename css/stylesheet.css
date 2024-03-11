@@ -156,6 +156,7 @@ header {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   color: aliceblue;
+  text-align: center;
 }
 
 .container-registrarse a {
@@ -168,6 +169,52 @@ header {
   transition: 1s;
 }
 
+.titulorutinas {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: 700;
+  margin: auto;
+  color: hotpink;
+}
+
+#cardsdiv {
+  text-align: center;
+  justify-content: center;
+}
+
+.margincards {
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.margincards img {
+  object-fit: cover;
+}
+
+.titulorutinas {
+  color: #fca2d2;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  padding: 25px;
+}
+
+.btncolor {
+  background-color: #dfef37 !important;
+  border: solid 1px black;
+  color: black;
+  font-weight: 500;
+  padding: 8px 30px 8px 30px;
+}
+
+.btncolor:hover {
+  font-size: 20px;
+  box-shadow: 0 0 15px 0 black;
+  transition: 0.5s;
+  color: #262727;
+}
+
 /* queries */
 @media only screen and (min-width: 318px) and (max-width: 792px) {
   /* FOOTER SECTION */
@@ -177,7 +224,7 @@ header {
     margin: 10px;
   }
   .newslettercontainer button {
-    padding: 6px 15px 6px 15px;
+    padding: 6px 7px 6px 7px;
     border-radius: 4px;
     background-color: #dfef37;
     font-family: Arial, Helvetica, sans-serif;
@@ -185,7 +232,7 @@ header {
     border: 1px solid #dfef37;
   }
   .emailinput {
-    width: 250px;
+    width: 240px;
     padding: 7px;
     background-color: #5e5b66;
     border: #5e5b66;
@@ -361,37 +408,6 @@ header {
   }
   /*....FIN DEL SECTION GRID.... */
   /*.....PAGE RUTINAS..... */
-  #cardsdiv {
-    text-align: center;
-    justify-content: center;
-  }
-  .margincards {
-    margin: auto;
-    margin-bottom: 20px;
-  }
-  .margincards img {
-    object-fit: cover;
-  }
-  .titulorutinas {
-    color: #fca2d2;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 500;
-    padding: 25px;
-  }
-  .btncolor {
-    background-color: #dfef37 !important;
-    border: solid 1px black;
-    color: black;
-    font-weight: 500;
-    padding: 8px 30px 8px 30px;
-  }
-  .btncolor:hover {
-    font-size: 20px;
-    box-shadow: 0 0 15px 0 black;
-    transition: 0.5s;
-    color: #262727;
-  }
 }
 @media only screen and (min-width: 793px) and (max-width: 2701px) {
   /* FOOTER SECTION */
@@ -519,22 +535,6 @@ header {
   /* FIN  DE SECCION INICI0 APRENDE */
   /* INICIO DE EL GRID */
   .grid-container {
-    margin: 60px;
-    /* border: 3px solid black; */
-    /* display: grid; */
-    display: grid;
-    grid-template-columns: repeat(3, 300px);
-    /* crear filas (ROW) */
-    grid-template-rows: repeat(3, 250px);
-    /* row-gap 
-        column-gap
-        gap
-    */
-    /* row-gap: 10px;
-    column-gap: 25px; */
-    gap: 25px;
-  }
-  .grid-container {
     margin: 170px 40px 100px 40px;
     /* border: 1px solid black; */
     /* display: grid; */
@@ -631,42 +631,6 @@ header {
   }
   /* FIN DEL GRID */
   /* PAGE RUTINAS */
-  .titulorutinas {
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-weight: 700;
-    margin-top: 20px;
-    color: hotpink;
-  }
-  #cardsdiv {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-  }
-  .margincards {
-    margin: 15px;
-  }
-  .margincards:hover {
-    box-shadow: 0 0 30px 0 pink;
-  }
-  .supercarddiv {
-    display: flex;
-    justify-content: center;
-  }
-  .btncolor {
-    background-color: #dfef37 !important;
-    border: solid 1px black;
-    color: black;
-    font-weight: 500;
-    padding: 8px 30px 8px 30px;
-  }
-  .btncolor:hover {
-    font-size: 20px;
-    box-shadow: 0 0 15px 0 black;
-    transition: 0.5s;
-    color: #262727;
-  }
 }
 
 /*# sourceMappingURL=stylesheet.css.map */
