@@ -1,4 +1,4 @@
-@media only screen and (min-width: 793px) and (max-width:2701px) 
+@media only screen and (min-width: 1201px) and (max-width:2701px) 
 {
 
                                                        /* FOOTER SECTION */
@@ -121,48 +121,104 @@ h1{
 }
     
 .subtituloaprende{
-        font-size: 35px;
+        font-size: 37px;
             
  }
     
 .textoaprende{
          margin: 7px;
-        font-size: 18px;
+        font-size: 20px;
           
 }
 
-.botonesaprender{
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: lighter;
-        border-radius: 5px;
-        border: 1px solid black;
-        padding: 7px 40px 7px 40px;
-        font-size: 20px;
-        background-color:#dfef37;
-        
+.grid-containeraprender{
+
+    margin: 170px 40px 100px 40px;
+    
+   /*  border: 3px solid black; */
+    
+    
+    /* display: grid; */
+    display: grid;
+    
+    /* grid-template-columns: 150px 150px 60px 250px 150px; */
+    
+    grid-template-columns: repeat(13, 1fr);
+    
+    /* crear filas (ROW) */
+    grid-template-rows: repeat(5, 150px);
+    
+    
+   
+    background-color: #5e5b66;
+    border-radius: 10px;
+
+    box-shadow: 0px 1px 17px 11px rgba(255,255,255,0.6);
+-webkit-box-shadow: 0px 1px 17px 11px rgba(255,255,255,0.6);
+-moz-box-shadow: 0px 1px 17px 11px rgba(255,255,255,0.6);
+
+    gap: 2px;
+    }
+   
+    .grid-tituloaprende{
+        grid-column: 1/20;
+        grid-row: 1/2;
         margin-top: 20px;
- }
+    }
+   .tituloaprende{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: #1A1A1A;
+    
+   }
+    
 
-.botonesaprender a{
-        text-decoration: none;
-        color: black;
-}
+    .grid-itemaprender-01{
+    grid-column: 2/6;
+    grid-row: 2/7;
+    border-radius: 5px;
 
-.botonesaprender:hover a{
-        color:black;
-        font-size: 25px;
-        transition: 0.6s;
-        text-shadow: 1px 1px 1px gainsboro;
-}
+    }
+    
+    
+    
+    .grid-itemaprender-02{
+    grid-column: 6/9;
+    grid-row: 2/7;
+    padding: 15px;
+    
+    }
+    
+    .grid-itemaprender-03{
+        grid-column: 10/13;
+        grid-row: 2/7;
+        padding: 15px;
+        /* box-shadow: 0 1px 40px 0 black; */
+        
+    }  
 
-.botonesaprender:hover{
-        box-shadow: 0 0 15px 0 black;
-        transition: 0.7s;
 
-}
 
     
-                                           /* FIN  DE SECCION INICI0 APRENDE */   
+/* FIN  DE SECCION INICI0 APRENDE */   
+
+
+    
+                                          
+
+
+
+
+
+
+
+
+
+
+
+
     
                                            /* INICIO DE EL GRID */
 
@@ -180,10 +236,10 @@ h1{
                                         
                                             /* grid-template-columns: 150px 150px 60px 250px 150px; */
                                         
-                                            grid-template-columns: repeat(3, 1fr);
+                                            grid-template-columns: repeat(15, 1fr);
                                         
                                             /* crear filas (ROW) */
-                                            grid-template-rows: repeat(3, 250px);
+                                            grid-template-rows: repeat(5, 150px);
                                         
                                             /* row-gap 
                                                 column-gap
@@ -196,105 +252,62 @@ h1{
                                         }
                                         
                                         .grid-item-01{
-                                            background-color:white;
-                                            grid-column: 1/3;
-                                            grid-row: 1/3;
+                                            background: linear-gradient(to right, #E7E7E7,#5e5b66,#1A1A1A);
+                                            grid-column: 2/15;
+                                            grid-row: 1/4;
                                             border-radius: 5px;
+
+                                            h2{
+                                                font-family: Arial, Helvetica, sans-serif;
+                                                color: black;
+                                                font-size: 3rem;
+                                                width: 60%;
+                                                font-weight: 600;
+                                                padding: 20px;
+
+                                            }
                                             
-                                    
-                                        }
-                                        .grid-item-01 h2{
-                                            font-family: Arial, Helvetica, sans-serif;
-                                            color: black;
-                                            font-size: 2.2rem;
-                                            width: 88%;
-                                            font-weight: 600;
-                                            padding: 20px;
-                                            text-shadow: 2px 2px 2px #dfef37;
-                                            
-                                            
-                                        }
-                                        
-                                        .grid-item-01 p{
-                                            font-family: Arial, Helvetica, sans-serif;
-                                            color: #1A1A1A;
-                                            font-size: 28px;
-                                            width: 89%;
-                                            margin-left: 20px;
+                                            p{
+                                                font-family: Arial, Helvetica, sans-serif;
+                                                color: #1A1A1A;
+                                                font-size: 28px;
+                                                width: 55%;
+                                                margin-left: 20px;
+                                            }
                                         }
                                         
+                        
                                         
                                         .grid-item-02{
-                                            background-color: #dfef37;
-                                            grid-column: 3/4;
-                                            grid-row: 1/4;
+                                            background-color: #d6098b;
+                                            grid-column: 10/14;
+                                            grid-row: 2/5;
                                             padding: 15px;
-                                            border-radius: 5px;
-                                            box-shadow: inset 0 0 40px 0 whitesmoke;
+                                            box-shadow: 39px 82px 32px 0px rgba(0,0,0,0.72);
+                                            -webkit-box-shadow: 39px 82px 32px 0px rgba(0,0,0,0.72);
+                                            -moz-box-shadow: 39px 82px 32px 0px rgba(0,0,0,0.72);
+                                            
+
+                                            h2{
+                                                font-family: Arial, Helvetica, sans-serif;
+                                                color: #1A1A1A;
+                                                font-weight: bold;
+                                                font-size: 35px;
+                                                width: 90%;
+                                            }
+
+                                            p{
+                                                font-family: Arial, Helvetica, sans-serif;
+                                                color: #1A1A1A;
+                                                font-size: 27px;
+                                                width: 75%;
+                                                margin: 25px 0px 0px 10px;
+                                            }
                                             
                                         }
                                         
-                                        .grid-item-02 h2{
-                                            font-family: Arial, Helvetica, sans-serif;
-                                            color: #1A1A1A;
-                                            font-weight: bold;
-                                            font-size: 2.5rem;
-                                            width: 75%;
-                                            margin-top: 25px;
-                                            margin-left: 10px;
-                                        }
-                                        
-                                        .grid-item-02 p{
-                                            font-family: Arial, Helvetica, sans-serif;
-                                            color: #1A1A1A;
-                                            font-size: 27px;
-                                            width: 75%;
-                                            margin: 25px 0px 0px 10px;
-                                        }
-                                        
-                                        .grid-item-03{
-                                            background-color:#99999e;
-                                            grid-column: 1/3;
-                                            grid-row: 3/4;
-                                            border-radius: 5px;
-                                            
-                                           
-                                        }
-                                        
-                                        .grid-item-03 p{
-                                            font-family: Arial, Helvetica, sans-serif;
-                                            color: #1A1A1A;
-                                            font-size: 1.3rem;
-                                            width: 95%;
-                                            margin-top: 18px;
-                                            margin-left: 13px;
-                                           
-                                        }
-                                        
-                                        .grid-item{
-                                            border: 1px solid blue;
-                                        }
-                                    
-                                        .div-interno-03{
-                                            display: flex;
-                                            justify-content: space-around;
-                                        }
-                                    
-                                        .div-interno-03 span{
-                                            font-size: 22px;
-                                            color: #dfef37;
-                                        }
-                                    
-                                        
-                                    
-                                        .botonVR button{
-                                            background-color: #99999e;
-                                            border-radius: 6px;
-                                            border: 1px solid #dfef37;
-                                            box-shadow: 0 0 17px 0 white;
-                                            padding: 10px 40px 10px 40px;
-                                        }
-                                    
+                                       
+        
 
     
 

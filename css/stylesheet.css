@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @media only screen and (min-width: 318px) and (max-width: 792px) {
   /* FOOTER SECTION */
   .redes {
@@ -98,14 +99,14 @@
   }
   /*............... SECTION GRID............... */
   .grid-container {
-    margin: 10px;
+    margin: 100px 5px 0px 5px;
     /* border: 1px solid black; */
     /* display: grid; */
     display: grid;
     /* grid-template-columns: 150px 150px 60px 250px 150px; */
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(20, 1fr);
     /* crear filas (ROW) */
-    grid-template-rows: repeat(4, 420px);
+    grid-template-rows: repeat(20, 50px);
     /* row-gap 
         column-gap
         gap
@@ -117,81 +118,51 @@
   /* ITEM 01 */
   .grid-item-01 {
     background-color: white;
-    grid-column: 1/5;
-    grid-row: 1/2;
+    grid-column: 1/21;
+    grid-row: 1/8;
     border-radius: 2px;
   }
   .grid-item-01 h2 {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    font-size: 1.7rem;
-    width: 100%;
+    font-size: 28px;
+    width: 80%;
     font-weight: 600;
-    padding: 20px;
-    text-shadow: 2px 1px 1px #dfef37;
+    padding: 10px;
   }
   .grid-item-01 p {
     font-family: Arial, Helvetica, sans-serif;
     color: #1A1A1A;
-    font-size: 25px;
-    width: 95%;
+    font-size: 20px;
+    width: 55%;
     margin-left: 10px;
   }
   /*ITEM 02 */
   .grid-item-02 {
-    background-color: #dfef37;
-    grid-column: 1/5;
-    grid-row: 2/3;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: inset 0 0 40px 0 whitesmoke;
-    text-align: left;
+    background-color: #d6098b;
+    grid-column: 12/20;
+    grid-row: 4/9;
+    padding: 10px;
+    box-shadow: 39px 82px 32px 0px rgba(0, 0, 0, 0.72);
+    -webkit-box-shadow: 39px 82px 32px 0px rgba(0, 0, 0, 0.72);
+    -moz-box-shadow: 39px 82px 32px 0px rgba(0, 0, 0, 0.72);
   }
-  .grid-item-02 h3 {
+  .grid-item-02 h2 {
     font-family: Arial, Helvetica, sans-serif;
     color: #1A1A1A;
     font-weight: bold;
-    font-size: 2rem;
-    width: 100%;
+    font-size: 16px;
     text-align: left;
-    margin: auto;
   }
   .grid-item-02 p {
     font-family: Arial, Helvetica, sans-serif;
     color: #1A1A1A;
-    font-size: 27px;
-    width: 75%;
-    margin-top: 15px;
-  }
-  /* ITEM 03 */
-  .grid-item-03 {
-    background-color: #99999e;
-    grid-column: 1/5;
-    grid-row: 3/4;
-    border-radius: 5px;
-  }
-  .grid-item-03 p {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #1A1A1A;
-    font-size: 1.5rem;
-    width: 95%;
-    margin: 18px 0px 0px 10px;
-  }
-  .div-interno-03 span {
-    font-size: 22px;
-    color: #dfef37;
-  }
-  .botonVR button {
-    background-color: #99999e;
-    border-radius: 6px;
-    border: 1px solid #dfef37;
-    box-shadow: 0 0 17px 0 white;
-    padding: 5px 30px 5px 30px;
+    font-size: 16px;
   }
   /*....FIN DEL SECTION GRID.... */
   /*.....PAGE RUTINAS..... */
 }
-@media only screen and (min-width: 793px) and (max-width: 2701px) {
+@media only screen and (min-width: 1201px) and (max-width: 2701px) {
   /* FOOTER SECTION */
   .footerdiv {
     display: flex;
@@ -284,35 +255,55 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   .subtituloaprende {
-    font-size: 35px;
+    font-size: 37px;
   }
   .textoaprende {
     margin: 7px;
-    font-size: 18px;
-  }
-  .botonesaprender {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-    border-radius: 5px;
-    border: 1px solid black;
-    padding: 7px 40px 7px 40px;
     font-size: 20px;
-    background-color: #dfef37;
+  }
+  .grid-containeraprender {
+    margin: 170px 40px 100px 40px;
+    /*  border: 3px solid black; */
+    /* display: grid; */
+    display: grid;
+    /* grid-template-columns: 150px 150px 60px 250px 150px; */
+    grid-template-columns: repeat(13, 1fr);
+    /* crear filas (ROW) */
+    grid-template-rows: repeat(5, 150px);
+    background-color: #5e5b66;
+    border-radius: 10px;
+    box-shadow: 0px 1px 17px 11px rgba(255, 255, 255, 0.6);
+    -webkit-box-shadow: 0px 1px 17px 11px rgba(255, 255, 255, 0.6);
+    -moz-box-shadow: 0px 1px 17px 11px rgba(255, 255, 255, 0.6);
+    gap: 2px;
+  }
+  .grid-tituloaprende {
+    grid-column: 1/20;
+    grid-row: 1/2;
     margin-top: 20px;
   }
-  .botonesaprender a {
-    text-decoration: none;
-    color: black;
+  .tituloaprende {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: #1A1A1A;
   }
-  .botonesaprender:hover a {
-    color: black;
-    font-size: 25px;
-    transition: 0.6s;
-    text-shadow: 1px 1px 1px gainsboro;
+  .grid-itemaprender-01 {
+    grid-column: 2/6;
+    grid-row: 2/7;
+    border-radius: 5px;
   }
-  .botonesaprender:hover {
-    box-shadow: 0 0 15px 0 black;
-    transition: 0.7s;
+  .grid-itemaprender-02 {
+    grid-column: 6/9;
+    grid-row: 2/7;
+    padding: 15px;
+  }
+  .grid-itemaprender-03 {
+    grid-column: 10/13;
+    grid-row: 2/7;
+    padding: 15px;
+    /* box-shadow: 0 1px 40px 0 black; */
   }
   /* FIN  DE SECCION INICI0 APRENDE */
   /* INICIO DE EL GRID */
@@ -322,9 +313,9 @@
     /* display: grid; */
     display: grid;
     /* grid-template-columns: 150px 150px 60px 250px 150px; */
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(15, 1fr);
     /* crear filas (ROW) */
-    grid-template-rows: repeat(3, 250px);
+    grid-template-rows: repeat(5, 150px);
     /* row-gap 
         column-gap
         gap
@@ -334,43 +325,41 @@
     gap: 20px;
   }
   .grid-item-01 {
-    background-color: white;
-    grid-column: 1/3;
-    grid-row: 1/3;
+    background: linear-gradient(to right, #E7E7E7, #5e5b66, #1A1A1A);
+    grid-column: 2/15;
+    grid-row: 1/4;
     border-radius: 5px;
   }
   .grid-item-01 h2 {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    font-size: 2.2rem;
-    width: 88%;
+    font-size: 3rem;
+    width: 60%;
     font-weight: 600;
     padding: 20px;
-    text-shadow: 2px 2px 2px #dfef37;
   }
   .grid-item-01 p {
     font-family: Arial, Helvetica, sans-serif;
     color: #1A1A1A;
     font-size: 28px;
-    width: 89%;
+    width: 55%;
     margin-left: 20px;
   }
   .grid-item-02 {
-    background-color: #dfef37;
-    grid-column: 3/4;
-    grid-row: 1/4;
+    background-color: #d6098b;
+    grid-column: 10/14;
+    grid-row: 2/5;
     padding: 15px;
-    border-radius: 5px;
-    box-shadow: inset 0 0 40px 0 whitesmoke;
+    box-shadow: 39px 82px 32px 0px rgba(0, 0, 0, 0.72);
+    -webkit-box-shadow: 39px 82px 32px 0px rgba(0, 0, 0, 0.72);
+    -moz-box-shadow: 39px 82px 32px 0px rgba(0, 0, 0, 0.72);
   }
   .grid-item-02 h2 {
     font-family: Arial, Helvetica, sans-serif;
     color: #1A1A1A;
     font-weight: bold;
-    font-size: 2.5rem;
-    width: 75%;
-    margin-top: 25px;
-    margin-left: 10px;
+    font-size: 35px;
+    width: 90%;
   }
   .grid-item-02 p {
     font-family: Arial, Helvetica, sans-serif;
@@ -379,40 +368,194 @@
     width: 75%;
     margin: 25px 0px 0px 10px;
   }
-  .grid-item-03 {
-    background-color: #99999e;
-    grid-column: 1/3;
-    grid-row: 3/4;
-    border-radius: 5px;
-  }
-  .grid-item-03 p {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #1A1A1A;
-    font-size: 1.3rem;
-    width: 95%;
-    margin-top: 18px;
-    margin-left: 13px;
-  }
-  .grid-item {
-    border: 1px solid blue;
-  }
-  .div-interno-03 {
-    display: flex;
-    justify-content: space-around;
-  }
-  .div-interno-03 span {
-    font-size: 22px;
-    color: #dfef37;
-  }
-  .botonVR button {
-    background-color: #99999e;
-    border-radius: 6px;
-    border: 1px solid #dfef37;
-    box-shadow: 0 0 17px 0 white;
-    padding: 10px 40px 10px 40px;
-  }
   /* FIN DEL GRID */
   /* PAGE RUTINAS */
+}
+@media only screen and (min-width: 793px) and (max-width: 1200px) {
+  /* FOOTER SECTION */
+  .footerdiv {
+    display: flex;
+    justify-content: space-between;
+  }
+  .redes {
+    color: #E7E7E7;
+    font-size: 25px;
+    margin: 10px;
+  }
+  .iglogo {
+    margin-top: 5px;
+  }
+  .newslettercontainer button {
+    padding: 7px 20px 7px 20px;
+    border-radius: 4px;
+    background-color: #dfef37;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    border: 1px solid #dfef37;
+  }
+  .emailinput {
+    width: 400px;
+    padding-right: 20px;
+    padding: 8px;
+    background-color: #5e5b66;
+    border: #5e5b66;
+    border-radius: 3px;
+    margin-left: 10px;
+  }
+  /* .................PAGE INICIO................. */
+  h1 {
+    font-family: initial;
+    font-size: 75px;
+    text-align: center;
+    color: #dfef37;
+    font-weight: 700;
+    margin: 15px;
+    text-shadow: 4px 4px 4px gray;
+    margin-top: 40px;
+  }
+  .titulo {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    margin: auto;
+    font-size: 30px;
+    width: 750px;
+    margin-top: 50px;
+  }
+  .mundofitness {
+    color: deeppink;
+  }
+  .online {
+    color: deeppink;
+    font-size: 29px;
+  }
+  /* SECCION INICIO APRENDE */
+  .listasdeaprende {
+    display: inline-block;
+    padding: 0px;
+    margin: 1px 15px 8px 15px;
+    width: 190px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .subtituloaprende {
+    font-size: 24px;
+    font-weight: bolder;
+    margin: auto;
+  }
+  .textoaprende {
+    margin: 7px;
+    font-size: 21px;
+    margin: auto;
+  }
+  .grid-containeraprender {
+    margin: 170px 40px 100px 40px;
+    /*  border: 3px solid black; */
+    /* display: grid; */
+    display: grid;
+    /* grid-template-columns: 150px 150px 60px 250px 150px; */
+    grid-template-columns: repeat(13, 1fr);
+    /* crear filas (ROW) */
+    grid-template-rows: repeat(6, 150px);
+    background-color: #5e5b66;
+    border-radius: 10px;
+    box-shadow: 0px 1px 17px 11px rgba(255, 255, 255, 0.6);
+    -webkit-box-shadow: 0px 1px 17px 11px rgba(255, 255, 255, 0.6);
+    -moz-box-shadow: 0px 1px 17px 11px rgba(255, 255, 255, 0.6);
+    gap: 2px;
+  }
+  .grid-tituloaprende {
+    grid-column: 1/20;
+    grid-row: 1/2;
+    margin-top: 20px;
+  }
+  .tituloaprende {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: #1A1A1A;
+  }
+  .grid-itemaprender-01 {
+    grid-column: 2/6;
+    grid-row: 2/7;
+    border-radius: 5px;
+  }
+  .grid-itemaprender-02 {
+    grid-column: 6/9;
+    grid-row: 2/7;
+    padding: 15px;
+  }
+  .grid-itemaprender-03 {
+    grid-column: 10/13;
+    grid-row: 2/7;
+    padding: 15px;
+    /* box-shadow: 0 1px 40px 0 black; */
+  }
+  /* FIN  DE SECCION INICI0 APRENDE */
+  /* INICIO DE EL GRID Nª2 */
+  .grid-container {
+    margin: 170px 40px 100px 40px;
+    /* border: 1px solid black; */
+    /* display: grid; */
+    display: grid;
+    /* grid-template-columns: 150px 150px 60px 250px 150px; */
+    grid-template-columns: repeat(10, 1fr);
+    /* crear filas (ROW) */
+    grid-template-rows: repeat(5, 150px);
+    /* row-gap 
+    column-gap
+    gap
+    */
+    /* row-gap: 10px;
+    column-gap: 25px; */
+    gap: 20px;
+  }
+  .grid-item-01 {
+    background: linear-gradient(to right, #E7E7E7, #5e5b66, #1A1A1A);
+    grid-column: 1/11;
+    grid-row: 1/4;
+    border-radius: 5px;
+  }
+  .grid-item-01 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 2.7rem;
+    width: 75%;
+    font-weight: 600;
+    padding: 20px;
+  }
+  .grid-item-01 p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1A1A1A;
+    font-size: 28px;
+    width: 50%;
+    margin-left: 20px;
+  }
+  .grid-item-02 {
+    background-color: #d6098b;
+    grid-column: 7/10;
+    grid-row: 2/5;
+    padding: 15px;
+    box-shadow: 39px 82px 32px 0px rgba(0, 0, 0, 0.72);
+    -webkit-box-shadow: 39px 82px 32px 0px rgba(0, 0, 0, 0.72);
+    -moz-box-shadow: 39px 82px 32px 0px rgba(0, 0, 0, 0.72);
+    /* FIN DEL GRID N2*/
+  }
+  .grid-item-02 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1A1A1A;
+    font-weight: bold;
+    font-size: 27px;
+    width: 90%;
+  }
+  .grid-item-02 p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1A1A1A;
+    font-size: 25px;
+    margin-top: 10px;
+  }
 }
 * {
   padding: 0;
@@ -474,11 +617,10 @@ header {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
-  background-color: black;
 }
 
 .buttonconocenos button {
-  background-color: black;
+  background: linear-gradient(#262727, black);
   border-radius: 6px;
   border: 1px solid black;
   box-shadow: 0 0 17px 0 white;
@@ -517,15 +659,16 @@ header {
   box-shadow: 0 0 25px 0 white;
 }
 
+/* BOTON APRENDER */
 .botonesaprender {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
   border-radius: 5px;
   border: 1px solid black;
-  padding: 7px 40px 7px 40px;
-  font-size: 20px;
+  padding: 7px 30px 7px 30px;
+  font-size: 17px;
   background-color: #dfef37;
-  margin-top: 20px;
+  margin-top: 7px;
 }
 
 .botonesaprender a {
@@ -535,7 +678,7 @@ header {
 
 .botonesaprender:hover a {
   color: black;
-  font-size: 25px;
+  font-size: 20px;
   transition: 0.6s;
   text-shadow: 1px 1px 1px gainsboro;
 }

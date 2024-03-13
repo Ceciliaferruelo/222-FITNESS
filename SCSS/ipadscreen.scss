@@ -1,0 +1,276 @@
+@media only screen and (min-width: 793px) and (max-width:1200px) {
+
+    /* FOOTER SECTION */
+    
+.footerdiv{
+
+display: flex;
+justify-content: space-between;
+
+}
+
+.redes{
+color: #E7E7E7;
+font-size: 25px;
+margin: 10px;
+
+}
+.iglogo{
+margin-top: 5px;
+}
+
+.newslettercontainer button{
+padding: 7px 20px 7px 20px;
+border-radius: 4px;
+background-color: #dfef37;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 500;
+border: 1px solid #dfef37;
+}
+
+.emailinput{
+width: 400px;
+padding-right: 20px;
+padding: 8px;
+background-color: #5e5b66;
+border: #5e5b66;
+border-radius: 3px;
+margin-left: 10px;
+
+}
+
+/* .................PAGE INICIO................. */
+h1{
+
+font-family: initial;
+font-size: 75px;
+text-align: center;
+color:  #dfef37;
+font-weight: 700;
+margin: 15px;
+text-shadow: 4px 4px 4px gray;
+margin-top: 40px;
+
+}
+
+
+
+.titulo{
+margin: auto;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+color: white;
+margin: auto;
+font-size: 30px;
+width: 750px;
+margin-top: 50px;
+}
+
+.mundofitness{
+color: deeppink; 
+}
+
+.online{
+color: deeppink;
+font-size: 29px;
+}
+
+
+ /* SECCION INICIO APRENDE */
+
+.listasdeaprende{
+display: inline-block;
+padding: 0px;
+margin: 1px 15px 8px 15px;
+width: 190px ; 
+text-align: center; 
+font-family: Arial, Helvetica, sans-serif; 
+
+}
+
+.subtituloaprende{
+font-size: 24px;
+font-weight: bolder;
+margin: auto;
+
+}
+
+.textoaprende{
+margin: 7px;
+font-size: 21px;
+margin: auto;
+
+}
+
+
+
+.grid-containeraprender{
+
+    margin: 170px 40px 100px 40px;
+    
+   /*  border: 3px solid black; */
+    
+    
+    /* display: grid; */
+    display: grid;
+    
+    /* grid-template-columns: 150px 150px 60px 250px 150px; */
+    
+    grid-template-columns: repeat(13, 1fr);
+    
+    /* crear filas (ROW) */
+    grid-template-rows: repeat(6, 150px);
+    
+    
+   
+    background-color: #5e5b66;
+    border-radius: 10px;
+
+    box-shadow: 0px 1px 17px 11px rgba(255,255,255,0.6);
+-webkit-box-shadow: 0px 1px 17px 11px rgba(255,255,255,0.6);
+-moz-box-shadow: 0px 1px 17px 11px rgba(255,255,255,0.6);
+
+    gap: 2px;
+    }
+   
+    .grid-tituloaprende{
+        grid-column: 1/20;
+        grid-row: 1/2;
+        margin-top: 20px;
+    }
+   .tituloaprende{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: #1A1A1A;
+    
+   }
+    
+
+    .grid-itemaprender-01{
+    grid-column: 2/6;
+    grid-row: 2/7;
+    border-radius: 5px;
+
+    }
+    
+    
+    
+    .grid-itemaprender-02{
+    grid-column: 6/9;
+    grid-row: 2/7;
+    padding: 15px;
+    
+    }
+    
+    .grid-itemaprender-03{
+        grid-column: 10/13;
+        grid-row: 2/7;
+        padding: 15px;
+        /* box-shadow: 0 1px 40px 0 black; */
+        
+    }  
+
+
+
+
+/* FIN  DE SECCION INICI0 APRENDE */   
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* INICIO DE EL GRID Nª2 */
+
+.grid-container{
+
+margin: 170px 40px 100px 40px;
+
+/* border: 1px solid black; */
+
+/* display: grid; */
+display: grid;
+
+/* grid-template-columns: 150px 150px 60px 250px 150px; */
+
+grid-template-columns: repeat(10, 1fr);
+
+/* crear filas (ROW) */
+grid-template-rows: repeat(5, 150px);
+
+/* row-gap 
+column-gap
+gap
+*/
+/* row-gap: 10px;
+column-gap: 25px; */
+
+gap: 20px;
+}
+
+.grid-item-01{
+background: linear-gradient(to right, #E7E7E7,#5e5b66,#1A1A1A);
+grid-column: 1/11;
+grid-row: 1/4;
+border-radius: 5px;
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 2.7rem;
+    width: 75%;
+    font-weight: 600;
+    padding: 20px;
+
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1A1A1A;
+    font-size: 28px;
+    width: 50%;
+    margin-left: 20px;
+}
+
+}
+
+
+
+.grid-item-02{
+background-color: #d6098b;
+grid-column: 7/10;
+grid-row: 2/5;
+padding: 15px;
+box-shadow: 39px 82px 32px 0px rgba(0,0,0,0.72);
+-webkit-box-shadow: 39px 82px 32px 0px rgba(0,0,0,0.72);
+-moz-box-shadow: 39px 82px 32px 0px rgba(0,0,0,0.72);
+
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1A1A1A;
+    font-weight: bold;
+    font-size: 27px;
+    width: 90%;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1A1A1A;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+/* FIN DEL GRID N2*/
+}
+      
+}
+
