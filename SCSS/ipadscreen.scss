@@ -1,3 +1,6 @@
+$colorprincipal:#d6098b;
+$colorsecundario:#dfef37;
+
 @media only screen and (min-width: 793px) and (max-width:1200px) {
 
     /* FOOTER SECTION */
@@ -22,10 +25,10 @@ margin-top: 5px;
 .newslettercontainer button{
 padding: 7px 20px 7px 20px;
 border-radius: 4px;
-background-color: #dfef37;
+background-color: $colorsecundario;
 font-family: Arial, Helvetica, sans-serif;
 font-weight: 500;
-border: 1px solid #dfef37;
+border: 1px solid $colorsecundario;
 }
 
 .emailinput{
@@ -245,7 +248,7 @@ p{
 
 
 .grid-item-02{
-background-color: #d6098b;
+background-color: $colorprincipal;
 grid-column: 7/10;
 grid-row: 2/5;
 padding: 15px;
@@ -269,8 +272,8 @@ p{
     margin-top: 10px;
 }
 
-/* FIN DEL GRID N2*/
+
 }
-      
+     /* FIN DEL GRID N2*/ 
 }
 
