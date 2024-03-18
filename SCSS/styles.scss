@@ -31,6 +31,7 @@ $colorsecundario:#dfef37;
 
 body{
     background-color: #262727;
+    
 }
     
 header{
@@ -110,30 +111,16 @@ header{
     margin-top: 80px;
 }
 
-.botonVR{
-    display: flex;
-    justify-content: center;
-    
-}
-.botonVR a{
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color:black;
-    font-size: 19px;
-    
-}
-.botonVR button:hover a{
-    font-size: 21px;
-    transition: 1s;
-}
-.botonVR button:hover {
-    box-shadow: 0 0 25px 0 white;
-
-}   
 
 /* BOTON APRENDER */
+
 .botonesaprender{
     @include botondefault();
+
+    &:hover{
+        box-shadow: 0 0 15px 0 black;
+        transition: 0.7s;
+    }
 }
 
 .botonesaprender a{
@@ -148,15 +135,42 @@ header{
     text-shadow: 1px 1px 1px gainsboro;
 }
 
-.botonesaprender:hover{
-    box-shadow: 0 0 15px 0 black;
-    transition: 0.7s;
-
-}
 
 
 
 
+
+
+
+
+  .card {
+    background: rgb(255,166,249);
+    background: radial-gradient(circle, rgba(255,166,249,1) 0%, rgba(255,234,238,1) 46%);
+    box-shadow: 0 0 17px 0 white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+
+    img{
+        margin: auto;
+    }
+  }
+  
+  .card-content {
+    padding: 20px;
+
+    h2{
+        color: black;
+        text-align: center;
+    }
+    p{
+
+      text-align: center;
+      color: black;
+
+
+    }
+  }
 
 
 

@@ -81,99 +81,23 @@ font-size: 29px;
 
  /* SECCION INICIO APRENDE */
 
-.listasdeaprende{
-display: inline-block;
-padding: 0px;
-margin: 1px 15px 8px 15px;
-width: 190px ; 
-text-align: center; 
-font-family: Arial, Helvetica, sans-serif; 
-
+ .cardcontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px   
 }
-
-.subtituloaprende{
-font-size: 24px;
-font-weight: bolder;
-margin: auto;
-
-}
-
-.textoaprende{
-margin: 7px;
-font-size: 21px;
-margin: auto;
-
-}
-
-
-
-.grid-containeraprender{
-
-    margin: 170px 40px 100px 40px;
-    
-   /*  border: 3px solid black; */
-    
-    
-    /* display: grid; */
-    display: grid;
-    
-    /* grid-template-columns: 150px 150px 60px 250px 150px; */
-    
-    grid-template-columns: repeat(13, 1fr);
-    
-    /* crear filas (ROW) */
-    grid-template-rows: repeat(6, 150px);
-    
-    
-   
-    background-color: #5e5b66;
-    border-radius: 10px;
-
-    box-shadow: 0px 1px 17px 11px rgba(255,255,255,0.6);
--webkit-box-shadow: 0px 1px 17px 11px rgba(255,255,255,0.6);
--moz-box-shadow: 0px 1px 17px 11px rgba(255,255,255,0.6);
-
-    gap: 2px;
+.card{
+    margin: 20px;
+    width: calc(40.33% - 20px);
+    h2{
+        font-size: 30px;
     }
-   
-    .grid-tituloaprende{
-        grid-column: 1/20;
-        grid-row: 1/2;
-        margin-top: 20px;
+    p{
+        font-size: 22px;
     }
-   .tituloaprende{
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    text-align: center;
-    color: #1A1A1A;
-    
-   }
-    
+    }
 
-    .grid-itemaprender-01{
-    grid-column: 2/6;
-    grid-row: 2/7;
-    border-radius: 5px;
 
-    }
-    
-    
-    
-    .grid-itemaprender-02{
-    grid-column: 6/9;
-    grid-row: 2/7;
-    padding: 15px;
-    
-    }
-    
-    .grid-itemaprender-03{
-        grid-column: 10/13;
-        grid-row: 2/7;
-        padding: 15px;
-        /* box-shadow: 0 1px 40px 0 black; */
-        
-    }  
 
 
 

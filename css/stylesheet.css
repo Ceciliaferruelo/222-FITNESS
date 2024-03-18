@@ -25,7 +25,7 @@
   /* .............PAGE INICIO............. */
   h1 {
     font-family: initial;
-    font-size: 3rem;
+    font-size: 35px;
     text-align: center;
     color: #dfef37;
     margin: 15px;
@@ -37,126 +37,19 @@
     text-align: center;
     color: white;
     margin: 30px;
+    font-size: 20px;
   }
   .mundofitness {
     color: hotpink;
   }
-  /* .grid-containeraprender{
-          background-color: white;
-          display: flex;
-          justify-content: center;
-          width: 80%;
-          text-align: center;
-          border: 2px solid #f7bbce;
-          box-shadow: 0 0 30px 0 whitesmoke;
-          margin: auto;
-          margin-top: 100px;
-  } */
-  .tituloaprende {
-    font-size: 35px;
-    font-family: Arial, Helvetica, sans-serif;
+  /* APRENDE */
+  .cardcontainer {
+    margin-top: 150px;
+  }
+  .card {
+    width: 500px;
+    width: calc(75.33% - 20px);
     margin: auto;
-    font-weight: 700;
-    color: rgb(223, 135, 184);
-  }
-  .listasdeaprende {
-    display: inline-block;
-    justify-content: center;
-    padding: 10px;
-    width: 200px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .subtituloaprende {
-    font-size: 25px;
-  }
-  .textoaprende {
-    font-size: 18px;
-  }
-  .botonesaprender, .btncolor {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-    border-radius: 5px;
-    border: 2px solid black;
-    padding: 9px 25px 9px 25px;
-    font-size: 17px;
-    background-color: #dfef37;
-    margin-top: 20px;
-  }
-  .botonesaprender a, .btncolor a {
-    text-decoration: none;
-    color: black;
-  }
-  .botonesaprender:hover a, .btncolor:hover a {
-    color: black;
-    font-size: 20px;
-    transition: 0.6s;
-    text-shadow: 1px 1px 1px #C6C6C6;
-  }
-  .botonesaprender:hover, .btncolor:hover {
-    box-shadow: 0 0 15px 0 black;
-    transition: 0.7s;
-  }
-  .listasdeaprende {
-    display: inline-block;
-    padding: 0px;
-    margin: 1px 10px 8px 10px;
-    width: 150px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .subtituloaprende {
-    font-size: 23px;
-    font-weight: bolder;
-    margin: auto;
-  }
-  .textoaprende {
-    font-size: 18px;
-    margin: auto;
-  }
-  .grid-containeraprender {
-    margin: 170px 10% 100px 10%;
-    /*  border: 3px solid black; */
-    /* display: grid; */
-    display: grid;
-    /* grid-template-columns: 150px 150px 60px 250px 150px; */
-    grid-template-columns: repeat(6, 1fr);
-    /* crear filas (ROW) */
-    grid-template-rows: repeat(15, 150px);
-    background-color: #5e5b66;
-    border-radius: 10px;
-    box-shadow: 0px 1px 17px 11px rgba(255, 255, 255, 0.6);
-    -webkit-box-shadow: 0px 1px 17px 11px rgba(255, 255, 255, 0.6);
-    -moz-box-shadow: 0px 1px 17px 11px rgba(255, 255, 255, 0.6);
-    gap: 2px;
-  }
-  .grid-containeraprender .grid-tituloaprende {
-    grid-column: 2/6;
-    grid-row: 1/2;
-    margin-top: 10px;
-  }
-  .grid-containeraprender .tituloaprende {
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    text-align: center;
-    color: #1A1A1A;
-  }
-  .grid-itemaprender-01 {
-    grid-column: 2/5;
-    grid-row: 2/6;
-    padding: 15px;
-  }
-  .grid-itemaprender-02 {
-    grid-column: 2/5;
-    grid-row: 6/10;
-    padding: 15px;
-  }
-  .grid-itemaprender-03 {
-    grid-column: 2/4;
-    grid-row: 11/16;
-    /* padding: 10px; */
-    /* box-shadow: 0 1px 40px 0 black; */
   }
   /*............... SECTION GRID............... */
   .grid-container {
@@ -283,88 +176,20 @@
     font-size: 29px;
   }
   /* SECCION INICIO APRENDE */
-  .aprendercontainer {
-    background-color: #5e5b66;
+  .cardcontainer {
     display: flex;
     justify-content: center;
-    width: 80%;
-    border-radius: 4px;
-    margin: auto;
-    margin-top: 150px;
-    box-shadow: 0 0 30px 0 white;
+    margin-top: 200px;
   }
-  .aprendecontainer:hover {
-    background-color: rgb(205, 203, 204);
-    transition: 1.5s;
+  .card {
+    margin: 20px;
+    width: calc(40.33% - 20px);
   }
-  .tituloaprende {
-    font-size: 45px;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
-    font-weight: 700;
-    color: black;
-    margin-top: 20px;
-    text-align: center;
-  }
-  .listasdeaprende {
-    display: inline-block;
-    padding: 0px;
-    margin: 1px 15px 8px 15px;
-    width: 300px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .subtituloaprende {
-    font-size: 37px;
-  }
-  .textoaprende {
-    margin: 7px;
-    font-size: 20px;
-  }
-  .grid-containeraprender {
-    margin: 170px 40px 100px 40px;
-    /*  border: 3px solid black; */
-    /* display: grid; */
-    display: grid;
-    /* grid-template-columns: 150px 150px 60px 250px 150px; */
-    grid-template-columns: repeat(13, 1fr);
-    /* crear filas (ROW) */
-    grid-template-rows: repeat(5, 150px);
-    background-color: #5e5b66;
-    border-radius: 10px;
-    box-shadow: 0px 1px 17px 11px rgba(255, 255, 255, 0.6);
-    -webkit-box-shadow: 0px 1px 17px 11px rgba(255, 255, 255, 0.6);
-    -moz-box-shadow: 0px 1px 17px 11px rgba(255, 255, 255, 0.6);
-    gap: 2px;
-  }
-  .grid-tituloaprende {
-    grid-column: 1/20;
-    grid-row: 1/2;
-    margin-top: 20px;
-  }
-  .tituloaprende {
+  .card h2 {
     font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    text-align: center;
-    color: #1A1A1A;
   }
-  .grid-itemaprender-01 {
-    grid-column: 2/6;
-    grid-row: 2/7;
-    border-radius: 5px;
-  }
-  .grid-itemaprender-02 {
-    grid-column: 6/9;
-    grid-row: 2/7;
-    padding: 55px;
-  }
-  .grid-itemaprender-03 {
-    grid-column: 10/13;
-    grid-row: 2/7;
-    padding: 15px;
-    /* box-shadow: 0 1px 40px 0 black; */
+  .card p {
+    font-size: 28px;
   }
   /* FIN  DE SECCION INICI0 APRENDE */
   /* INICIO DE EL GRID */
@@ -581,67 +406,20 @@
     font-size: 29px;
   }
   /* SECCION INICIO APRENDE */
-  .listasdeaprende {
-    display: inline-block;
-    padding: 0px;
-    margin: 1px 15px 8px 15px;
-    width: 190px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+  .cardcontainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
   }
-  .subtituloaprende {
-    font-size: 24px;
-    font-weight: bolder;
-    margin: auto;
+  .card {
+    margin: 20px;
+    width: calc(40.33% - 20px);
   }
-  .textoaprende {
-    margin: 7px;
-    font-size: 21px;
-    margin: auto;
+  .card h2 {
+    font-size: 30px;
   }
-  .grid-containeraprender {
-    margin: 170px 40px 100px 40px;
-    /*  border: 3px solid black; */
-    /* display: grid; */
-    display: grid;
-    /* grid-template-columns: 150px 150px 60px 250px 150px; */
-    grid-template-columns: repeat(13, 1fr);
-    /* crear filas (ROW) */
-    grid-template-rows: repeat(6, 150px);
-    background-color: #5e5b66;
-    border-radius: 10px;
-    box-shadow: 0px 1px 17px 11px rgba(255, 255, 255, 0.6);
-    -webkit-box-shadow: 0px 1px 17px 11px rgba(255, 255, 255, 0.6);
-    -moz-box-shadow: 0px 1px 17px 11px rgba(255, 255, 255, 0.6);
-    gap: 2px;
-  }
-  .grid-tituloaprende {
-    grid-column: 1/20;
-    grid-row: 1/2;
-    margin-top: 20px;
-  }
-  .tituloaprende {
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    text-align: center;
-    color: #1A1A1A;
-  }
-  .grid-itemaprender-01 {
-    grid-column: 2/6;
-    grid-row: 2/7;
-    border-radius: 5px;
-  }
-  .grid-itemaprender-02 {
-    grid-column: 6/9;
-    grid-row: 2/7;
-    padding: 15px;
-  }
-  .grid-itemaprender-03 {
-    grid-column: 10/13;
-    grid-row: 2/7;
-    padding: 15px;
-    /* box-shadow: 0 1px 40px 0 black; */
+  .card p {
+    font-size: 22px;
   }
   /* FIN  DE SECCION INICI0 APRENDE */
   /* INICIO DE EL GRID Nª2 */
@@ -788,27 +566,6 @@ header {
   margin-top: 80px;
 }
 
-.botonVR {
-  display: flex;
-  justify-content: center;
-}
-
-.botonVR a {
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  font-size: 19px;
-}
-
-.botonVR button:hover a {
-  font-size: 21px;
-  transition: 1s;
-}
-
-.botonVR button:hover {
-  box-shadow: 0 0 25px 0 white;
-}
-
 /* BOTON APRENDER */
 .botonesaprender, .btncolor {
   font-family: Arial, Helvetica, sans-serif;
@@ -818,6 +575,10 @@ header {
   padding: 7px 30px 7px 30px;
   font-size: 25px;
   background-color: #d6098b;
+}
+.botonesaprender:hover, .btncolor:hover {
+  box-shadow: 0 0 15px 0 black;
+  transition: 0.7s;
 }
 
 .botonesaprender a, .btncolor a {
@@ -832,9 +593,28 @@ header {
   text-shadow: 1px 1px 1px gainsboro;
 }
 
-.botonesaprender:hover, .btncolor:hover {
-  box-shadow: 0 0 15px 0 black;
-  transition: 0.7s;
+.card {
+  background: rgb(255, 166, 249);
+  background: radial-gradient(circle, rgb(255, 166, 249) 0%, rgb(255, 234, 238) 46%);
+  box-shadow: 0 0 17px 0 white;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.card img {
+  margin: auto;
+}
+
+.card-content {
+  padding: 20px;
+}
+.card-content h2 {
+  color: black;
+  text-align: center;
+}
+.card-content p {
+  text-align: center;
+  color: black;
 }
 
 /* page rutinas */
