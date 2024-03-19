@@ -108,8 +108,8 @@ h1{
 
 
  .card{
- margin: 20px;
- width: calc(40.33% - 20px);
+ margin: 30px;
+ width: calc(30.33% - 20px);
  
  h2{
     font-size: 40px;
@@ -153,7 +153,7 @@ h1{
                                             grid-template-columns: repeat(15, 1fr);
                                         
                                             /* crear filas (ROW) */
-                                            grid-template-rows: repeat(5, 150px);
+                                            grid-template-rows: repeat(7, 70px);
                                         
                                             /* row-gap 
                                                 column-gap
@@ -161,14 +161,14 @@ h1{
                                             */
                                             /* row-gap: 10px;
                                             column-gap: 25px; */
-                                        
+                                            padding: 20px;
                                             gap: 20px;
 
                                            
                                                .grid-item-01{
-                                                     background: linear-gradient(to right, #E7E7E7,#5e5b66,#1A1A1A);
+                                                     background: linear-gradient(to right, #E7E7E7,#e7e7e7, #5e5b66,#414141);
                                                      grid-column: 2/15;
-                                                     grid-row: 1/4;
+                                                     grid-row: 1/5;
                                                      border-radius: 5px;
     
                                                 h2{
@@ -193,27 +193,62 @@ h1{
                             
                                             
                                             .grid-item-02{
+                                                transform: rotate(4deg);
                                                 grid-column: 10/14;    
-                                                background-color: $colorprincipal;
-                                                grid-row: 2/5;
+                                                background-color: $colorsecundario;
+                                                grid-row: 2/7;
                                                 padding: 15px;
                                                 box-shadow: 39px 82px 32px 0px rgba(0,0,0,0.72);
                                                 -webkit-box-shadow: 39px 82px 32px 0px rgba(0,0,0,0.72);
                                                 -moz-box-shadow: 39px 82px 32px 0px rgba(0,0,0,0.72);
                                                 
-    
+                                                transition: 2s;
+
+                                                &:hover{
+                                                    
+                                                    transform: translateY(-50px) rotate(4deg);
+                                                }
+                                               
+
                                                 h2{
                                                     font-family: Arial, Helvetica, sans-serif;
                                                     color: #1A1A1A;
                                                     font-weight: bold;
-                                                    font-size: 35px;
-                                                    width: 90%;
+                                                    font-size: 42px;
+                                                    
                                                 }
+
+                                               button{
+                                               border: none;
+                                               background-color: #dfef373e;
+                                               margin-top: 13px;
+                                               border-radius: 10px;
+                                               padding: 10px;
+
+                                               transition: 1s;
+                                               
+                                               &:hover{
+                                                
+                                                font-size: 25px;
+                                                background-color: #edfa67;
+
+                                           }
+
+                                               a{
+                                                font-size: 22px;
+                                                font-family: Arial, Helvetica, sans-serif;
+                                                font-weight: 500;
+                                                color: #1A1A1A;
+                                                text-decoration: none;
+
+                                               
+                                               }
     
             
                                                 }
                                                 
                                             }
+                                        }
 
 
                                        
@@ -242,30 +277,28 @@ h1{
     font-size: 75px;
     
  }
+
+ .redesnosotros{
+    display: flex;
+    justify-content: center;
+ }
  
 
                                                          .grid-containernosotros{
 
                                                             margin: 170px 400px 150px 70px;
                                                             
-                                                            /* border: 1px solid black; */
-                                                            
-                                                            /* display: grid; */
+                                                          
                                                             display: grid;
                                                             
-                                                            /* grid-template-columns: 150px 150px 60px 250px 150px; */
+                                                            
                                                             
                                                             grid-template-columns: repeat(10, 1fr);
                                                             
-                                                            /* crear filas (ROW) */
+                                                            
                                                             grid-template-rows: repeat(4, 100px);
                                                             
-                                                            /* row-gap 
-                                                            column-gap
-                                                            gap
-                                                            */
-                                                            /* row-gap: 10px;
-                                                            column-gap: 25px; */
+                                                            
                                                             background: linear-gradient(to right, #E7E7E7,#5e5b66,);
                                                             gap: 20px;
 
@@ -293,7 +326,6 @@ h1{
                                                                 width: 40%;
                                                                 margin-left: 50px;
                                                                 font-weight: bolder;
-                                                                text-shadow: 7px 5px 5px rgba(0,0,0,0.61);
                                                             }
                                                            
                                                             button{
@@ -310,36 +342,7 @@ h1{
                                                            
 
                                                             }
-                                                            
-                                                            
-                                                            
-                                                          /*   .grid-item-02nosotros{
-
-                                                            background-color: #5e5b66;
-                                                            grid-column: 6/10;
-                                                            grid-row: 5/10;
-                                                            padding: 15px;
-                                                            box-shadow: 39px 82px 32px 0px rgba(0,0,0,0.72);
-                                                            -webkit-box-shadow: 39px 82px 32px 0px rgba(0,0,0,0.72);
-                                                            -moz-box-shadow: 39px 82px 32px 0px rgba(0,0,0,0.72);
-                                                            border-radius: 9px; 
-                                                            
-                                                            h2{
-                                                                font-family: Arial, Helvetica, sans-serif;
-                                                                color: #1A1A1A;
-                                                                font-weight: bold;
-                                                                font-size: 35px;
-                                                                
-                                                            }
-                                                            
-                                                            p{
-                                                                font-family: Arial, Helvetica, sans-serif;
-                                                                color: #1A1A1A;
-                                                                font-size: 38px;
-                                                                margin-top: 30px;
-                                                                
-                                                            }
-                                                        } */
+                                                    
 
                                                             .grid-item-03nosotros{
 
@@ -359,4 +362,5 @@ h1{
 
 
     
-}
+                                                       
+  }

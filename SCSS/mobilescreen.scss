@@ -114,32 +114,24 @@ $colorsecundario:#dfef37;
     
             margin: 100px 5px 0px 5px;
         
-            /* border: 1px solid black; */
-        
-            /* display: grid; */
+           
             display: grid;
         
-            /* grid-template-columns: 150px 150px 60px 250px 150px; */
+            
         
-            grid-template-columns: repeat(20, 1fr);
+            grid-template-columns: repeat(8, 1fr);
         
-            /* crear filas (ROW) */
-            grid-template-rows: repeat(20, 50px);
+            grid-template-rows: repeat(10, 50px);
         
-            /* row-gap 
-                column-gap
-                gap
-            */
-            /* row-gap: 10px;
-            column-gap: 25px; */
+          
         
             gap: 15px;
         }
                                           /* ITEM 01 */
         .grid-item-01{
             background-color:white;
-            grid-column: 1/21;
-            grid-row: 1/8;
+            grid-column: 1/9;
+            grid-row: 1/7;
             border-radius: 2px;
 
             h2{
@@ -168,8 +160,8 @@ $colorsecundario:#dfef37;
         .grid-item-02{
 
             background-color: $colorprincipal;
-            grid-column: 8/20;
-            grid-row: 6/10;
+            grid-column: 1/9;
+            grid-row: 7/11;
             padding: 10px;
             box-shadow: 39px 82px 32px 0px rgba(0,0,0,0.72);
             -webkit-box-shadow: 39px 82px 32px 0px rgba(0,0,0,0.72);
@@ -179,18 +171,38 @@ $colorsecundario:#dfef37;
                 font-family: Arial, Helvetica, sans-serif;
                 color: #1A1A1A;
                 font-weight: bold;
-                font-size: 17px;
+                font-size: 28px;
                 text-align: left;
                 
             }
             
-            p{
-                font-family: Arial, Helvetica, sans-serif;
-                color: #1A1A1A;
-                font-size: 16px;
+            button{
+                border: none;
+                background-color: $colorprincipal;
+                margin-top: 10px;
+                border-radius: 10px;
+                padding: 10px;
                 
-               
+                transition: 1s;
+                &:hover{
+                 
+                 box-shadow: 0px 0px 30px 0px #e48bd2;
+                 font-size: 25px;
+            
             }
+            
+                a{
+                 font-size: 21px;
+                 font-family: Arial, Helvetica, sans-serif;
+                 font-weight: 500;
+                 color: #1A1A1A;
+                 text-decoration: none;
+            
+                
+                }
+            
+            
+                 }
         }
         
 

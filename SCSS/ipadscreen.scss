@@ -88,7 +88,7 @@ font-size: 29px;
 }
 .card{
     margin: 20px;
-    width: calc(40.33% - 20px);
+    width: calc(30.33% - 20px);
     h2{
         font-size: 30px;
     }
@@ -122,30 +122,22 @@ font-size: 29px;
 
 margin: 170px 40px 100px 40px;
 
-/* border: 1px solid black; */
 
-/* display: grid; */
 display: grid;
 
-/* grid-template-columns: 150px 150px 60px 250px 150px; */
+
 
 grid-template-columns: repeat(10, 1fr);
 
-/* crear filas (ROW) */
 grid-template-rows: repeat(5, 150px);
 
-/* row-gap 
-column-gap
-gap
-*/
-/* row-gap: 10px;
-column-gap: 25px; */
+
 
 gap: 20px;
 }
 
 .grid-item-01{
-background: linear-gradient(to right, #E7E7E7,#5e5b66,#1A1A1A);
+background: linear-gradient(to right, #E7E7E7,#E7E7E7, #5e5b66,#3d3d3d);
 grid-column: 1/11;
 grid-row: 1/4;
 border-radius: 5px;
@@ -163,7 +155,7 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     color: #1A1A1A;
     font-size: 28px;
-    width: 50%;
+    width: 45%;
     margin-left: 20px;
 }
 
@@ -172,32 +164,62 @@ p{
 
 
 .grid-item-02{
-background-color: $colorprincipal;
-grid-column: 7/10;
+transform: translateX(53px) rotate(4deg);
+background-color: $colorsecundario;
+grid-column: 6/10;
 grid-row: 2/5;
 padding: 15px;
 box-shadow: 39px 82px 32px 0px rgba(0,0,0,0.72);
 -webkit-box-shadow: 39px 82px 32px 0px rgba(0,0,0,0.72);
 -moz-box-shadow: 39px 82px 32px 0px rgba(0,0,0,0.72);
 
+transition: 2s;
+&:hover{
+    
+    transform: translateY(-50px) rotate(4deg) translateX(60px);
+}
 
 h2{
     font-family: Arial, Helvetica, sans-serif;
     color: #1A1A1A;
     font-weight: bold;
-    font-size: 27px;
+    font-size: 39px;
     width: 90%;
 }
 
-p{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #1A1A1A;
-    font-size: 25px;
-    margin-top: 10px;
+button{
+    border: none;
+    background-color: #eaf93e;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 5px;
+
+    transition: 1s;
+    &:hover{
+     
+     box-shadow: 0px 0px 30px 0px rgb(159, 182, 77);
+
 }
 
+    a{
+     font-size: 22px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 500;
+     color: #1A1A1A;
+     text-decoration: none;
+
+    
+    }
+
+
+     }
 
 }
      /* FIN DEL GRID N2*/ 
+
+
+
+
+
 }
 

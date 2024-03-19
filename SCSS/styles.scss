@@ -97,12 +97,15 @@ header{
     border: 1px solid black;
     box-shadow: 0 0 17px 0 white;
     padding: 10px 50px 10px 50px;
+
+    transition: 1s;
+    &:hover{
+        box-shadow: 0 0 90px 0 white;
+        
+    }
 }
 
-.buttonconocenos:hover button{
-    box-shadow: 0 0 90px 0 white;
-    transition: 1s;
-}
+
 
 .buttonconocenos{
    
@@ -144,9 +147,9 @@ header{
 
 
   .card {
-    background: rgb(255,166,249);
-    background: radial-gradient(circle, rgba(255,166,249,1) 0%, rgba(255,234,238,1) 46%);
-    box-shadow: 0 0 17px 0 white;
+    background: #E7E7E7;
+    
+    box-shadow: 0 0 30px 0 rgb(248, 156, 205);
     border-radius: 8px;
     margin-bottom: 20px;
     margin-top: 30px;
