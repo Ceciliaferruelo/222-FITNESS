@@ -4,11 +4,9 @@ $colorsecundario:#dfef37;
 @mixin botondefault {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px solid black;
-    padding: 7px 30px 7px 30px;
     font-size: 17px;
-    background-color:$colorsecundario;
     margin-top: 7px;
 }
 
@@ -118,8 +116,10 @@ header{
 /* BOTON APRENDER */
 
 .botonesaprender{
-    @include botondefault();
 
+    @include botondefault();
+    background-color:$colorsecundario;
+    padding: 7px 10px 7px 10px;
     &:hover{
         box-shadow: 0 0 15px 0 black;
         transition: 0.7s;
@@ -135,7 +135,6 @@ header{
     color:black;
     font-size: 20px;
     transition: 0.6s;
-    text-shadow: 1px 1px 1px gainsboro;
 }
 
 
@@ -179,6 +178,8 @@ header{
 
 
                                                           /* page rutinas */
+
+
 .containersubtitulorutinas{
     display:flex;
     justify-content: center;   
@@ -219,50 +220,54 @@ header{
 
 
 }
-.titulorutinas{
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-weight: 700;
-    margin: auto;
-    color: hotpink;
-}
 
-#cardsdiv{
-    text-align: center;
-    justify-content: center;
-    }                                       
-    
-    .margincards{
+
+   /* CARDS */
+
+
+    .card1 {
+        background: #E7E7E7;
         
-        margin: auto;
+        box-shadow: 0 0 30px 0 rgb(248, 156, 205);
+        border-radius: 8px;
         margin-bottom: 20px;
-
-    }
-
-    .margincards img {
-        object-fit: cover;
-       
-    }
+        margin-top: 30px;
+    
+        img{
+            margin: auto;
+        }
+      }
+      
+      .card-content {
+        padding: 20px;
+    
+        h2{
+            color: black;
+            text-align: center;
+        }
+        p{
+    
+          text-align: center;
+          color: black;
     
     
-    .titulorutinas{
-        color: #fca2d2;
-        text-align: center;
-        font-size: 30px;
-        font-weight: 500;
-        padding: 25px;
-    }
+        }
+       }
+
+      
     .btncolor{
         @extend .botonesaprender;
         color: #262727 !important;
+        text-decoration: none;
+        font-size: 20px;
+        margin: auto;
         
        
     }
     
     
     .btncolor:hover{
-        font-size: 20px;
+        font-size: 23px;
         box-shadow: 0 0 15px 0 black;
         transition: 0.5s;
         color: #262727;

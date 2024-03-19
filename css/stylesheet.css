@@ -119,6 +119,21 @@
   }
   /*....FIN DEL SECTION GRID.... */
   /*.....PAGE RUTINAS..... */
+  .cardcontainer {
+    margin-top: 150px;
+  }
+  .card1 {
+    width: 500px;
+    width: calc(50.33% - 20px);
+    margin: auto;
+  }
+  .card1 h2 {
+    font-size: 19px;
+  }
+  .card1 button {
+    display: flex;
+    justify-content: center;
+  }
 }
 @media only screen and (min-width: 1201px) and (max-width: 2701px) {
   /* FOOTER SECTION */
@@ -276,6 +291,23 @@
     text-decoration: none;
   }
   /* FIN DEL GRID */
+  /* PAGE RUTINAS */
+  .cardcontainerutinas {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  .card1 {
+    margin: 20px;
+    width: calc(25.33% - 20px);
+  }
+  .card1 h2 {
+    font-size: 20px;
+  }
+  .card1 button {
+    display: flex;
+    justify-content: center;
+  }
   /* PAGE NOSOTROS */
   .titulonosotros {
     font-family: Arial, Helvetica, sans-serif;
@@ -485,6 +517,78 @@
     text-decoration: none;
   }
   /* FIN DEL GRID N2*/
+  /* page rutinasss */
+  .cardcontainerutinas {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  .card1 {
+    margin: 20px;
+    width: calc(25.33% - 20px);
+  }
+  .card1 h2 {
+    font-size: 19px;
+  }
+  .card1 button {
+    display: flex;
+    justify-content: center;
+  }
+  /* page nosotros */
+  .grid-containernosotros {
+    margin: 170px 400px 150px 70px;
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(7, 100px);
+    background: linear-gradient(to right, #E7E7E7, #5e5b66);
+    gap: 20px;
+  }
+  .grid-item-01nosotros {
+    grid-column: 1/13;
+    grid-row: 1/3;
+    border-radius: 5px;
+  }
+  .grid-item-01nosotros h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 48px;
+    font-weight: 600;
+    padding: 20px;
+    margin-left: 35px;
+  }
+  .grid-item-01nosotros p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1A1A1A;
+    font-size: 35px;
+    width: 40%;
+    margin-left: 50px;
+    font-weight: bolder;
+  }
+  .grid-item-01nosotros button {
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 7px 30px 7px 30px;
+    font-size: 25px;
+    background-color: #d6098b;
+  }
+  .grid-item-01nosotros button:hover {
+    font-size: 28px;
+    transition: 1s;
+    box-shadow: 0 0 25px 0 white;
+  }
+  .grid-item-03nosotros {
+    grid-column: 7/10;
+    grid-row: 1/3;
+    margin-top: 26px;
+  }
+  .grid-item-03nosotros img {
+    box-shadow: 10px 10px 15px 1px rgba(0, 0, 0, 0.56);
+    -webkit-box-shadow: 10px 10px 15px 1px rgba(0, 0, 0, 0.56);
+    -moz-box-shadow: 10px 10px 15px 1px rgba(0, 0, 0, 0.56);
+  }
 }
 * {
   padding: 0;
@@ -575,6 +679,8 @@ header {
   padding: 7px 30px 7px 30px;
   font-size: 25px;
   background-color: #d6098b;
+  background-color: #dfef37;
+  padding: 7px 10px 7px 10px;
 }
 .botonesaprender:hover, .btncolor:hover {
   box-shadow: 0 0 15px 0 black;
@@ -590,7 +696,6 @@ header {
   color: black;
   font-size: 20px;
   transition: 0.6s;
-  text-shadow: 1px 1px 1px gainsboro;
 }
 
 .card {
@@ -653,43 +758,39 @@ header {
   transition: 1s;
 }
 
-.titulorutinas {
-  font-size: 40px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  font-weight: 700;
-  margin: auto;
-  color: hotpink;
-}
-
-#cardsdiv {
-  text-align: center;
-  justify-content: center;
-}
-
-.margincards {
-  margin: auto;
+/* CARDS */
+.card1 {
+  background: #E7E7E7;
+  box-shadow: 0 0 30px 0 rgb(248, 156, 205);
+  border-radius: 8px;
   margin-bottom: 20px;
+  margin-top: 30px;
+}
+.card1 img {
+  margin: auto;
 }
 
-.margincards img {
-  object-fit: cover;
+.card-content {
+  padding: 20px;
 }
-
-.titulorutinas {
-  color: #fca2d2;
+.card-content h2 {
+  color: black;
   text-align: center;
-  font-size: 30px;
-  font-weight: 500;
-  padding: 25px;
+}
+.card-content p {
+  text-align: center;
+  color: black;
 }
 
 .btncolor {
   color: #262727 !important;
+  text-decoration: none;
+  font-size: 20px;
+  margin: auto;
 }
 
 .btncolor:hover {
-  font-size: 20px;
+  font-size: 23px;
   box-shadow: 0 0 15px 0 black;
   transition: 0.5s;
   color: #262727;

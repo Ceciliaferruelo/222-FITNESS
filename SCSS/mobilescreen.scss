@@ -72,6 +72,7 @@ $colorsecundario:#dfef37;
     .cardcontainer{
         margin-top: 150px;
     }
+    
     .card{
        width: 500px;
        width: calc(75.33% - 20px);
@@ -219,7 +220,23 @@ $colorsecundario:#dfef37;
                                                      /*.....PAGE RUTINAS..... */
 
                                                     
-                                                
+                                                     .cardcontainer{
+                                                        margin-top: 150px;
+                                                    }
+                                                    
+                                                    .card1{
+                                                       width: 500px;
+                                                       width: calc(50.33% - 20px);
+                                                       margin: auto;
+                                                       h2{
+                                                        font-size: 19px;
+                                                     }
+                                                    button{
+                                                     display: flex;
+                                                     justify-content: center;
+                                                        
+                                                    } 
+                                                    }         
                                              
                 
     
