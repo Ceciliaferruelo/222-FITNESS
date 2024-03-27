@@ -225,10 +225,12 @@ $colorsecundario:#dfef37;
                                                     
                                                     .card1{
                                                        width: 500px;
-                                                       width: calc(60.33% - 20px);
+                                                       width: calc(65.33% - 20px);
                                                        margin: auto;
                                                        h2{
-                                                        font-size: 19px;
+                                                        font-size: 20px;
+                                                        margin-bottom: 20px
+                                                        
                                                      }
                                                     button{
                                                      display: flex;

@@ -17,6 +17,8 @@ $colorsecundario:#dfef37;
 
 @import "ipadscreen.scss";
 
+@import "pages/gluteofemoral.scss";
+
  
 
 
@@ -234,6 +236,7 @@ header{
         border-radius: 8px;
         margin-bottom: 20px;
         margin-top: 30px;
+        padding: 20px;
     
         img{
             margin: auto;

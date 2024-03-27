@@ -1,0 +1,42 @@
+
+.listaprincipal{
+    color: white;
+    list-style: decimal;
+}
+h2{
+    color: white;
+}
+.ejercicio{
+    margin-bottom: 30px;
+}
+
+.listaprincipal{
+    width: calc(70.33% - 20px);
+    margin: auto;
+}
+
+h2{
+    width: calc(90.33% - 20px);
+    margin: auto;  
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+@media only screen and (min-width: 318px) and (max-width: 792px){
+    .listaprincipal{
+        width: calc(70.33% - 20px);
+        margin: auto;
+    }
+
+    
+}
+
+
+
+
+@media only screen and (min-width: 793px) and (max-width:1200px){
+
+
+
+}
